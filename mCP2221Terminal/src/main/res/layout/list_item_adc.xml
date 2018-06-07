@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblVref"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:focusable="false"
+        android:text="Vref"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/spinnerVrefAdc"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/lblVref"
+        android:entries="@array/vref" />
+
+    <Button
+        android:id="@+id/btn_GP1_ADC0"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinnerVrefAdc"
+        android:layout_below="@+id/btnSetVrefAdc"
+        android:text="@string/adcReadgp1"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_GP2_ADC1"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_GP1_ADC0"
+        android:layout_alignBottom="@+id/btn_GP1_ADC0"
+        android:layout_toRightOf="@+id/btn_GP1_ADC0"
+        android:text="@string/adcReadgp2"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_GP3_ADC2"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_GP2_ADC1"
+        android:layout_below="@+id/btnSetVrefAdc"
+        android:layout_toRightOf="@+id/btn_GP2_ADC1"
+        android:text="@string/adcReadgp3"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/txtAdcGp1"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_GP1_ADC0"
+        android:layout_below="@+id/btn_GP1_ADC0"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="ADC0"
+        android:inputType="none|textMultiLine|textNoSuggestions"
+        android:textSize="14sp" >
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSetVrefAdc"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_GP3_ADC2"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/spinnerVrefAdc"
+        android:text="Set"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/txtAdcGp2"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtAdcGp1"
+        android:layout_alignBottom="@+id/txtAdcGp1"
+        android:layout_toRightOf="@+id/btn_GP1_ADC0"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="ADC1"
+        android:inputType="none|textMultiLine|textNoSuggestions"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/txtAdcGp3"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtAdcGp1"
+        android:layout_alignBottom="@+id/txtAdcGp1"
+        android:layout_toRightOf="@+id/btn_GP2_ADC1"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="ADC2"
+        android:inputType="none|textMultiLine|textNoSuggestions"
+        android:textSize="14sp" >
+    </EditText>
+
+    <Button
+        android:id="@+id/btnAdcReadAll"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtAdcGp1"
+        android:layout_alignBottom="@+id/btn_GP1_ADC0"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/btn_GP1_ADC0"
+        android:text="@string/read_all"
+        android:textSize="14sp" />
+
+</RelativeLayout>

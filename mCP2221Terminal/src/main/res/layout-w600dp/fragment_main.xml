@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.microchip.android.mcp2221terminal.MainActivity" >
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spinnerOperation"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:entries="@array/operation_array" />
+
+    <EditText
+        android:id="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/spinnerOperation"
+        android:digits="0123456789ABCDEF"
+        android:ems="10"
+        android:hint="@string/address"
+        android:inputType="textCapCharacters|textNoSuggestions|textVisiblePassword"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textSize="15sp"
+        android:width="150dp" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtRegIndex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/txtAddress"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="17dp"
+        android:layout_toRightOf="@id/txtAddress"
+        android:digits="0123456789ABCDEF"
+        android:ems="10"
+        android:hint="@string/reg_index"
+        android:inputType="textCapCharacters|textNoSuggestions|textVisiblePassword"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textSize="15sp"
+        android:width="150dp" />
+
+    <Spinner
+        android:id="@+id/SpinnerAddrLength"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignTop="@id/spinnerOperation"
+        android:layout_toRightOf="@id/spinnerOperation"
+        android:entries="@array/address_length_array" />
+
+    <Spinner
+        android:id="@+id/SpinnerPEC"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/SpinnerAddrLength"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/txtRegIndex"
+        android:entries="@array/pec_array"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/SpinnerPEC"
+        android:layout_below="@id/SpinnerPEC"
+        android:onClick="buttonSendOnClick"
+        android:text="@string/send" />
+
+    <Spinner
+        android:id="@+id/SpinnerSpeed"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignTop="@id/buttonSend"
+        android:layout_below="@id/txtAddress"
+        android:entries="@array/speed_array" />
+
+    <EditText
+        android:id="@+id/txtData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtAddress"
+        android:layout_below="@id/SpinnerSpeed"
+        android:digits="0123456789ABCDEF,\n"
+        android:ems="10"
+        android:hint="@string/data"
+        android:inputType="textMultiLine|textCapCharacters|textNoSuggestions|textVisiblePassword"
+        android:lines="2"
+        android:longClickable="true"
+        android:maxLines="3"
+        android:scrollbars="vertical" />
+
+    <EditText
+        android:id="@+id/txtOutput"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:layout_below="@id/txtData"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="top"
+        android:hint="@string/output"
+        android:inputType="none|textMultiLine|textNoSuggestions"
+        android:longClickable="true"
+        android:scrollHorizontally="false"
+        android:scrollbars="vertical" />
+
+</RelativeLayout>

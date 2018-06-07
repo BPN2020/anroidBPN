@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/txtComOutput"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/txtInput"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:layout_below="@+id/btnOpenCloseCom"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="top"
+        android:hint="@string/output"
+        android:inputType="none|textMultiLine|textNoSuggestions"
+        android:longClickable="true"
+        android:scrollHorizontally="false"
+        android:scrollbars="vertical" />
+
+    <EditText
+        android:id="@+id/txtInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:ems="10"
+        android:hint="@string/data"
+        android:inputType="textNoSuggestions|textVisiblePassword|textMultiLine"
+        android:lines="2"
+        android:longClickable="true"
+        android:maxLines="3"
+        android:paddingRight="50dp"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/btnOpenCloseCom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="Open COM" />
+
+    <ImageButton
+        android:id="@+id/btnComSettings"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/btnOpenCloseCom"
+        android:layout_toLeftOf="@+id/btnOpenCloseCom"
+        android:src="@drawable/perm_group_system_tools" />
+
+    <ImageButton
+        android:id="@+id/btnComSendData"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/ic_menu_send" />
+
+</RelativeLayout>

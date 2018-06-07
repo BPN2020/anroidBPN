@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/lblBaudRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Baud Rate"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/spinnerBaudRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblBaudRate"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/lblBaudRate"
+        android:entries="@array/baudrate"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        tools:listitem="@android:layout/simple_spinner_item" />
+
+    <TextView
+        android:id="@+id/lblComRxFormat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spinnerBaudRate"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Rx Format"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/spinnerComOutputFormat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lblComRxFormat"
+        android:layout_alignLeft="@+id/spinnerBaudRate"
+        android:layout_marginTop="10dp"
+        android:entries="@array/comOutputFormat"
+        tools:listitem="@android:layout/simple_spinner_item" />
+
+    <Switch
+        android:id="@+id/swLocalEcho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/spinnerComOutputFormat"
+        android:layout_below="@+id/lblComRxFormat"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:checked="true"
+        android:switchPadding="10dp"
+        android:text="Local Echo"
+        android:textSize="18sp"
+        android:thumbTextPadding="10sp" />
+
+    <Button
+        android:id="@+id/btnSaveComSettings"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/swLocalEcho"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Save" />
+
+    <ImageButton
+        android:id="@+id/btnComSendData"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/spinnerBaudRate"
+        android:layout_toRightOf="@+id/spinnerBaudRate"
+        android:src="@drawable/refresh" />
+
+</RelativeLayout>

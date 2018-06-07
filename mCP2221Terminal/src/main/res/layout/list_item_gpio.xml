@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/spinner_gp_read_write"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/gp_read_write" />
+
+    <Button
+        android:id="@+id/btn_GP0"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/spinner_gp_read_write"
+        android:layout_toRightOf="@+id/spinner_gp_read_write"
+        android:text="@string/gp0"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_GP1"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_GP0"
+        android:layout_alignBottom="@+id/btn_GP0"
+        android:layout_toRightOf="@+id/btn_GP0"
+        android:text="@string/gp1"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_GP2"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_GP1"
+        android:layout_alignBottom="@+id/btn_GP1"
+        android:layout_toRightOf="@+id/btn_GP1"
+        android:text="@string/gp2"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_GP3"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_GP2"
+        android:layout_alignBottom="@+id/btn_GP2"
+        android:layout_toRightOf="@+id/btn_GP2"
+        android:text="@string/gp3"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnReadAll"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spinner_gp_read_write"
+        android:text="@string/read_all"
+        android:textSize="14sp" />
+
+    <ToggleButton
+        android:id="@+id/toggleGP0"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_GP0"
+        android:layout_below="@+id/btn_GP0"
+        android:textOff="@string/toggle_low"
+        android:textOn="@string/toggle_high" />
+
+    <ToggleButton
+        android:id="@+id/toggleGP1"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_GP1"
+        android:layout_toRightOf="@+id/toggleGP0"
+        android:textOff="@string/toggle_low"
+        android:textOn="@string/toggle_high" />
+
+    <ToggleButton
+        android:id="@+id/toggleGP2"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/toggleGP0"
+        android:layout_alignBottom="@+id/toggleGP0"
+        android:layout_toRightOf="@+id/toggleGP1"
+        android:textOff="@string/toggle_low"
+        android:textOn="@string/toggle_high" />
+
+    <ToggleButton
+        android:id="@+id/toggleGP3"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/toggleGP0"
+        android:layout_alignBottom="@+id/toggleGP0"
+        android:layout_toRightOf="@+id/toggleGP2"
+        android:textOff="@string/toggle_low"
+        android:textOn="@string/toggle_high" />
+
+</RelativeLayout>

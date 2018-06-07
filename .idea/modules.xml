@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Source.iml" filepath="$PROJECT_DIR$/Source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mCP2221Terminal/mCP2221Terminal.iml" filepath="$PROJECT_DIR$/mCP2221Terminal/mCP2221Terminal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mcp2221Comm/mcp2221Comm.iml" filepath="$PROJECT_DIR$/mcp2221Comm/mcp2221Comm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microchipUsb/microchipUsb.iml" filepath="$PROJECT_DIR$/microchipUsb/microchipUsb.iml" />
+    </modules>
+  </component>
+</project>

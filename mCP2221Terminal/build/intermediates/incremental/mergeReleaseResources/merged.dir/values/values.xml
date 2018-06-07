@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="address_length_array">
+        <item>8 bit Address</item>
+        <item>7 bit Address</item>
+    </string-array>
+    <string-array name="baudrate">
+        <item>300</item>
+        <item>600</item>
+        <item>1200</item>
+        <item>2400</item>
+        <item>4800</item>
+        <item>9600</item>
+        <item>14400</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>56000</item>
+        <item>57600</item>
+        <item>115200</item>
+    </string-array>
+    <string-array name="comOutputFormat">
+        <item>ASCII</item>
+        <item>Hex</item>
+    </string-array>
+    <string-array name="dutyCycle">
+        <item>0 %</item>
+        <item>25 %</item>
+        <item>50 %</item>
+        <item>75 %</item>
+    </string-array>
+    <string-array name="frequency">
+        <item>24 MHz</item>
+        <item>12 MHz</item>
+        <item>6 MHz</item>
+        <item>3 MHz</item>
+        <item>1.5 MHz</item>
+        <item>750 kHz</item>
+        <item>375 kHz</item>
+    </string-array>
+    <string-array name="gp0_functions">
+        <item>SSPND</item>
+        <item>Output</item>
+        <item>Input</item>
+        <item>LED URX</item>
+    </string-array>
+    <string-array name="gp1_functions">
+        <item>LED UTX</item>
+        <item>Output</item>
+        <item>Input</item>
+        <item>CLK OUT</item>
+        <item>ADC1</item>
+        <item>IOC</item>
+    </string-array>
+    <string-array name="gp2_functions">
+        <item>USBCFG</item>
+        <item>Output</item>
+        <item>Input</item>
+        <item>ADC2</item>
+        <item>DAC1</item>
+    </string-array>
+    <string-array name="gp3_functions">
+        <item>LED I2C</item>
+        <item>Output</item>
+        <item>Input</item>
+        <item>ADC3</item>
+        <item>DAC2</item>
+    </string-array>
+    <string-array name="gp_read_write">
+        <item>Read</item>
+        <item>Write</item>
+    </string-array>
+    <string-array name="helpItems">
+        <item>I2C/SMBus Terminal</item>
+        <item>Pin Configuration</item>
+        <item>Pin Functions</item>
+        <item>Serial Terminal</item>
+		<item>Known Issues</item>
+    </string-array>
+    <string-array name="operation_array">
+        <item>I2C Write</item>
+        <item>I2C Read</item>
+        <item>SMBus Write</item>
+        <item>SMBus Read</item>
+    </string-array>
+    <string-array name="output_levels">
+        <item>High</item>
+        <item>Low</item>
+    </string-array>
+    <string-array name="pec_array">
+        <item>PEC Off</item>
+        <item>PEC On</item>
+    </string-array>
+    <string-array name="speed_array">
+        <item>100000 bps</item>
+        <item>400000 bps</item>
+    </string-array>
+    <string-array name="vref">
+        <item>Vdd</item>
+        <item>1.024V</item>
+        <item>2.048V</item>
+        <item>4.096V</item>
+    </string-array>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <string name="OK">OK</string>
+    <string name="accept">Accept</string>
+    <string name="adcReadgp1">Read GP1</string>
+    <string name="adcReadgp2">Read GP2</string>
+    <string name="adcReadgp3">Read GP3</string>
+    <string name="address">Address</string>
+    <string name="app_name">MCP2221 Terminal</string>
+    <string name="cancel">Cancel</string>
+    <string name="configure">Configure</string>
+    <string name="connection_status">Connection Status</string>
+    <string name="data">Data</string>
+    <string name="dialog_clear_data">Clear Data Field?</string>
+    <string name="dialog_clear_output">Clear Output Messages?</string>
+    <string name="eula_text"><b>BY DOWNLOADING THIS APPLICATION FROM MICROCHIP YOU ACKNOWLEDGE 
+        AND ACCEPT THE FOLLOWING TERMS AND CONDITIONS (THE \"LICENSE\") TO THE ACCOMPANYING 
+        APPLICATION AND CONTENT.BY DOWNLOADING AND USING THE APPLICATION, YOU AGREE TO BE BOUND 
+        BY THE FOLLOWING LICENSE TERMS GOVERNING THE USE OF THIS APPLICATION AND CONTENT. 
+        IF YOU DO NOT ACCEPT THESE LICENSE TERMS, YOU MUST NOT USE THE APPLICATION AND MUST REMOVE 
+        THE APPLICATION FROM YOUR DEVICE.\n\n
+        
+        MICROCHIP NON-EXCLUSIVE END USER LICENSE AGREEMENT \n
+        \t\t (MCP2221 Terminal)</b> \n\n
+
+        This Microchip Nonexclusive End User License Agreement (\"License\") is a contract between 
+        you, your heirs, successors and assigns (\"Licensee\") and Microchip Technology 
+        Incorporated, a Delaware corporation, with a principal place of business at 2355 W. Chandler
+         Blvd., Chandler, AZ 85224-6199, and its subsidiaries including, Microchip Technology 
+         (Barbados) II Incorporated (collectively, \"Microchip\") for the accompanying Microchip 
+         Application Program (MCP2221 Terminal), and any modifications or updates thereto 
+         (collectively, the \"Application\"), and accompanying content, including images and 
+         any other graphic resources provided by Microchip (\"Documentation\").\n\n  
+
+        1.<b><u>Definitions.</u></b>  As used in this License, the following capitalized terms will have 
+        the meanings defined below:\n
+        
+        \t a. \"<b>Android</b>\" means an open-source operating system used for smartphones and tablet computers.\n
+        
+        \t b. \"<b>Intellectual Property Rights</b>\" means any and all rights existing from time to time 
+        under patent law, copyright law, trade secret law, trademark law, unfair competition law, 
+        and any and all other proprietary rights, and any and all applications, renewals, extensions
+        and restorations thereof, now or hereafter in force and effect worldwide. \n
+        
+        \t c. \"<b>Microchip Products</b>\" means Microchip integrated circuit devices and software
+        applications including by not limited to the Application. \n
+        
+        \t d. \"<b>Licensee Products</b>\" means Licensee’s product(s) that use or incorporate the
+         Application and utilize an Android based operating system. \n
+         
+         \t e. \"<b>Source Code</b>\" means the software computer programming code used to create 
+         the Application which may be printed out and displayed in human readable form (including 
+         related programmer comments and documentation, if any) and error corrections, improvements,
+         modifications and updates.\n\n
+         
+         2. <b><u>Application License.</u></b> Subject to Licensee’s compliance with the terms of 
+         this License, Microchip grants strictly to Licensee a non-exclusive, non-transferable, 
+         non-sublicensable, worldwide license to install and use internally the Application in 
+         connection with Licensee’s Product(s).\n\n
+         
+         3.<b><u>License Restrictions.</u></b> Licensee agrees: \n
+         \t a. Not to use the Application in any manner that could damage, disable, overburden,
+          or impair the Application (or servers or networks connected to the Application), nor may 
+          Licensee use the Application in any manner that could interfere with any other party’s 
+          use and enjoyment of the Application (or servers or networks connected to the Application); and \n
+          
+          \t b. That Licensee is solely responsible for (and Microchip has no responsibility to 
+          Licensee or to any third party for) Licensee’s use of the Application, any breach of 
+          Licensee’s obligations under this License, and for the consequences (including any loss 
+          or damage which Microchip may suffer) of any such breach. \n
+          
+          For purposes of clarity, the Application may only be downloaded to Licensee’s mobile Android device.\n\n  
+         
+         4.<b><u>Documentation License Grant.</u></b> Subject to Licensee’s compliance with the 
+         terms of this License, Microchip grants to Licensee a non-exclusive, non-transferable, 
+         worldwide license to use the Documentation in support of the authorized use of the 
+         Software as set forth in this License.\n\n
+         
+         5.<b><u>Third Party Requirements.</u></b> Licensee acknowledges that it is Licensee’s 
+         responsibility to comply with any third party license terms or requirements applicable 
+         to the use of such third party software, specifications, systems, or tools.  This includes,
+         by way of example but not as a limitation, Google Eclipse Android Developer Tools and 
+         Google Android Software Development Kits, any standards setting organizations requirements
+         and, particularly with respect to Security Package Software, if any, local encryption laws 
+         and requirements.  Microchip is not responsible and will not be held responsible in any 
+         manner for Licensee’s failure to comply with such applicable third party terms or requirements.\n\n
+         
+         6.<b><u>Open Source Components.</u></b> Notwithstanding the license grant in Section 2 
+         above, Licensee further acknowledges that certain components of the Application are 
+         or may be covered by so-called \"open source\" software licenses (\"Open Source Components\"),
+         including, but not limited to, Apache Software Foundation which can be found at 
+         http://www.apache.org/licenses/LICENSE-2.0 and the Creative Commons Attribution 
+         2.5 Generic License (http://creativecommons.org/licenses/by/2.5/). Open Source Components 
+         means any software licenses approved as open source licenses by the Open Source Initiative 
+         or any substantially similar licenses, including without limitation any license that, as a 
+         condition of distribution of the software licensed under such license, requires that the 
+         distributor make the software available in source code format.  To the extent required by 
+         the licenses covering Open Source Components, the terms of such license will apply in lieu 
+         of the terms of this License.  To the extent the terms of the licenses applicable to Open 
+         Source Components prohibit any of the restrictions in this License with respect to such Open
+          Source Components; such restrictions will not apply to such Open Source Component.\n\n
+         
+         7.<b><u>Licensee Obligations.</u></b> Licensee will not: (a) engage in unauthorized use, 
+         modification, disclosure or distribution of the Application or its content, or its 
+         modifications or derivatives; (b) use all or any portion of the Application, content, or 
+         its modifications or derivatives except in conjunction with Microchip Products or Licensee 
+         Products as set forth in this License; or (c) reverse engineer (by disassembly, decompilation
+          or otherwise) the Application or any portion thereof.  Licensee may not remove or alter 
+          any Microchip copyright or other proprietary rights notice posted in any portion of the 
+          Application or content.  Licensee will defend, indemnify and hold Microchip and its 
+          subsidiaries harmless from and against any and all claims, costs, damages, expenses 
+          (including reasonable attorney\'s fees), liabilities, and losses, including without 
+          limitation: (x) any claims directly or indirectly arising from or related to the use, 
+          modification, disclosure or distribution of the Application, content, or any Intellectual 
+          Property Rights related thereto; (y) the use, sale and distribution of Licensee Products; 
+          and (z) breach of this License.  \n\n
+          
+          8.<b><u>Confidentiality.</u></b> Licensee agrees that the Application (including but not 
+         limited to the source code, object code and library files) and its modifications or 
+         derivatives, Documentation, content and underlying inventions, algorithms, know-how and 
+         ideas relating to the Application and the content are proprietary information belonging 
+         to Microchip and its licensors (\"Proprietary Information\").  Except as expressly and 
+         unambiguously allowed herein, Licensee will hold in confidence and not use or disclose 
+         any Proprietary Information and will similarly bind its employees, in writing.  
+         Proprietary Information will not include information that: (i) is in or enters the public 
+         domain without breach of this License and through no fault of the receiving party; (ii) the 
+         receiving party was legally in possession of prior to receiving it; (iii) the receiving party
+          can demonstrate was developed by the receiving party independently and without use of or 
+          reference to the disclosing party\'s Proprietary Information; or (iv) the receiving party 
+          receives from a third party without restriction on disclosure.  If Licensee is required to 
+          disclose Proprietary Information by law, court order, or government agency, License will 
+          give Microchip prompt notice of such requirement in order to allow Microchip to object or 
+          limit such disclosure.  Licensee agrees that the provisions of this License regarding 
+          unauthorized use and nondisclosure of the Application, Documentation, content and related 
+          Proprietary Rights are necessary to protect the legitimate business interests of Microchip 
+          and its licensors and that monetary damage alone cannot adequately compensate Microchip or
+          its licensors if such provisions are violated.  Licensee, therefore, agrees that if 
+          Microchip alleges that Licensee has breached or violated such provision then Microchip 
+          will have the right to injunctive relief, without the requirement for the posting of a bond, 
+          in addition to all other remedies at law or in equity.\n\n
+         
+         9.<b><u>Ownership of Proprietary Rights.</u></b> You acknowledge that (a) the Application 
+         contains proprietary and confidential information that is protected by applicable intellectual 
+         property and other laws, and (b) Microchip and/or third parties own and retain all right, 
+         title and interest in and to the Application and content, excluding content provided by you,
+         that may be presented or accessed through the Application, including without limitation all 
+         Intellectual Property Rights therein and thereto. You agree that you will not, and will not 
+         allow any third party to, (i) copy, sell, license, distribute, transfer, modify, adapt, 
+         translate, prepare derivative works from, decompile, reverse engineer, disassemble or 
+         otherwise attempt to derive Source Code from the Application or content that may be 
+         presented or accessed through the Application for any purpose, unless otherwise permitted, 
+         (ii) take any action to circumvent or defeat the security or content usage rules provided, 
+         deployed or enforced by any functionality (including without limitation digital rights 
+         management functionality) contained in the Application, (iii) use the Application to access,
+         copy, transfer, transcode or retransmit content in violation of any law or third party 
+         rights, or (iv) remove, obscure, or alter Microchip’s or any third party’s copyright notices,
+         trademarks, or other proprietary rights notices affixed to or contained within or accessed 
+         in conjunction with or through the Application.  \n\n
+         
+         10.<b><u>Termination of License.</u></b> Without prejudice to any other rights, this License 
+         terminates immediately, without notice by Microchip, upon a failure by Licensee to comply 
+         with any provision of this License.  Upon termination, Licensee will immediately stop using 
+         the Application, Documentation, content, modifications and derivatives thereof, and immediately 
+         destroy all such copies.\n\n
+         
+         11.<b><u>Indemnity.</u></b> To the maximum extent permitted by law, you agree to defend, 
+         indemnify and hold harmless Microchip, its affiliates and their respective directors, 
+         officers, employees and agents from and against any and all claims, actions, suits or 
+         proceedings, as well as any and all losses, liabilities, damages, costs and expenses 
+         (including reasonable attorney’s fees) arising out of or accruing from your use of the 
+         Application, including your downloading, installation, or use of the Application, or your 
+         violation of these Terms and Conditions.\n\n
+         
+         12.<b><u>Warranty Disclaimers.</u></b> THE APPLICATION IS PROVIDED \"AS IS\" WITHOUT 
+         WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION, ANY WARRANTY 
+         OF MERCHANTABILITY, TITLE, NON-INFRINGEMENT AND FITNESS FOR A PARTICULAR PURPOSE.  MICROCHIP 
+         AND ITS LICENSORS ASSUME NO RESPONSIBILITY FOR THE ACCURACY, PURPOSE OR RELIABILITY OF THE 
+         APPLICATION OR DOCUMENTATION.  MICROCHIP AND ITS LICENSORS DO NOT WARRANT THAT THE 
+         APPLICATION WILL MEET REQUIREMENTS OF LICENSEE OR THIRD PARTY, BE UNINTERRUPTED OR ERROR-FREE.  
+         MICROCHIP AND ITS LICENSORS HAVE NO OBLIGATION TO CORRECT ANY DEFECTS IN THE APPLICATION.  
+         THE APPLICATION IS NOT INTENDED FOR USE IN THE OPERATION LIFE SUPPORT SYSTEMS, EMERGENCY 
+         COMMUNICATIONS, AIRCRAFT NAVIGATION OR COMMUNICATION SYSTEMS, AIR TRAFFIC CONTROL SYSTEMS, 
+         OR ANY OTHER ACTIVITIES IN WHICH THE FAILURE OF THE APPLICATION COULD LEAD TO DEATH, 
+         PERSONAL INJURY, OR SEVERE PHYSICAL OR ENVIRONMENTAL DAMAGE.\n\n
+         
+         13.<b><u>Limited Liability.</u></b> IN NO EVENT WILL MICROCHIP OR ITS LICENSORS BE LIABLE 
+         OR OBLIGATED UNDER ANY LEGAL OR EQUITABLE THEORY FOR ANY DIRECT OR INDIRECT DAMAGES OR 
+         EXPENSES INCLUDING BUT NOT LIMITED TO INCIDENTAL, SPECIAL, INDIRECT, PUNITIVE OR 
+         CONSEQUENTIAL DAMAGES, LOST PROFITS OR LOST DATA, COST OF PROCUREMENT OF SUBSTITUTE GOODS, 
+         TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES (INCLUDING BUT NOT LIMITED TO ANY 
+         DEFENSE THEREOF), OR OTHER SIMILAR COSTS.  The aggregate and cumulative liability of 
+         Microchip and its licensors for damages hereunder will in no event exceed the amount 
+         Licensee paid Microchip for the Application and Documentation.  Licensee acknowledges that 
+         the foregoing limitations are reasonable and an essential part of this License.\n\n
+         
+         14.<b><u>General.</u></b> THIS LICENSE WILL BE GOVERNED BY AND CONSTRUED UNDER THE LAWS OF 
+         THE STATE OF ARIZONA AND THE UNITED STATES WITHOUT REGARD TO CONFLICTS OF LAWS PROVISIONS.  
+         Licensee agrees that any disputes arising out of or related to this License, the 
+         Application or Documentation will be brought exclusively in either the U.S. District Court 
+         for the District of Arizona, Phoenix Division, or the Superior Court of Arizona located in 
+         Maricopa County, Arizona.  This License will constitute the entire agreement between the 
+         parties with respect to the subject matter hereof.  It will not be modified except by a 
+         written agreement signed by an authorized representative of Microchip.  If any provision of 
+         this License will be held by a court of competent jurisdiction to be illegal, invalid or 
+         unenforceable, that provision will be limited or eliminated to the minimum extent necessary 
+         so that this License will otherwise remain in full force and effect and enforceable.  No 
+         waiver of any breach of any provision of this License will constitute a waiver of any prior, 
+         concurrent or subsequent breach of the same or any other provisions hereof, and no waiver 
+         will be effective unless made in writing and signed by an authorized representative of the 
+         waiving party.  Licensee agrees to comply with all import and export laws and restrictions 
+         and regulations of the Department of Commerce or other United States or foreign agency or 
+         authority. The indemnities, obligations of confidentiality, and limitations on liability 
+         described herein, and any right of action for breach of this License prior to termination, 
+         will survive any termination of this License. Any prohibited assignment will be null and 
+         void.  Use, duplication or disclosure by the United States Government is subject to 
+         restrictions set forth in subparagraphs (a) through (d) of the Commercial Computer-Restricted 
+         Rights clause of FAR 52.227-19 when applicable, or in subparagraph (c)(1)(ii) of the Rights 
+         in Technical Data and Computer Software clause at DFARS 252.227-7013, and in similar 
+         clauses in the NASA FAR Supplement.  Contractor/manufacturer is Microchip Technology Inc., 
+         2355 W. Chandler Blvd., Chandler, AZ 85224-6199.\n\n
+         
+         If Licensee has any questions about this License, please write to Microchip Technology Inc., 
+         2355 W. Chandler Blvd., Chandler, AZ 85224-6199 USA. ATTN: Marketing.</string>
+    <string name="gp0">GP0</string>
+    <string name="gp1">GP1</string>
+    <string name="gp2">GP2</string>
+    <string name="gp3">GP3</string>
+    <string name="help_i2c_terminal">        \n  <b>1) <u>Connection Status </u></b> \n
+            The light indicates if a MCP2221 is connected. \n  <i>RED</i> = MCP2221 not connected \n  <i>GREEN</i> = MCP2221 connected \n\n  <b>2) <u>Operation Selection </u></b> \n
+            Select the desired operation. Available options are: \n  <i>  - I2C Write </i> \n  <i>  - I2C Read </i> \n <i>  - SMBus Write </i>\n  <i>  - SMBus Read </i>\n\n <b>3) <u>Address Length</u></b> \n
+             Select if the slave address is 7 or 8 bits in length.\n
+             For 8 bit addresses, the R/W bit is automatically configured according to the selected operation.\n\n  <b>4) <u>Slave Address</u></b> \n
+             The address for the I2C/SMBus slave that the MCP2221 will communicate with. The address is a hex number 
+             between 0 - FF (for 8bit addresses) or between 0 - 7F (for 7bit addresses). \n
+             For 8 bit addresses, the R/W bit is automatically configured according to the selected operation; 
+             there is no need to manually change it.\n\n  <b>5) <u>Register Index</u></b> \n
+             This field is used only for SMBus communication and specifies the register address on which 
+             the operation will take place. \n\n  <b>6) <u>PEC Selection</u></b> \n
+             The PEC (PACKET ERROR CHECK) field is used for SMBus only and will enable/disable 
+             the error checking for SMBus packets. \n\n  <b>7) <u>Communication Speed</u></b> \n
+            This option is used to select the communication speed between 100 kbps or 400 kbps.\n\n   <b>8) <u>Send Button</u></b> \n
+            Send the command to the MCP2221.\n\n  <b>9) <u>Data Field</u></b> \n
+          The content of this field varies depending on the selected Operation. \n\n
+		  For an I2C/SMBus “Read” operation, the data field will contain a single hex value, specifying the number of 
+		  bytes that will be read from the slave. Accepted values are between 1 and FFFF (65535) for I2C reads or SMBus Reads with 
+		  PEC Off, or from 1 to FFFE (65534) for SMBus reads with PEC On.  \n\n
+		  
+		  For an I2C/SMBus “Write” operation, the data field will contain the data bytes that will be sent to the 
+		  slave. Values are hexadecimal and should be separated by commas.\n\n  <b>10) <u>Output</u></b> \n
+    		  The Output field contains the communication results. The error codes are the same as the ones for the 
+    		  MCP2221 Windows DLL. \n
+    		  This field can be cleared by long pressing it and selecting \"OK\" for the dialog that appears.\n\n 
+    		    <b><u>Release Notes</u></b> \n
+		  v2.0\n
+		   Added support for:
+            - ADC, DAC, Clock Out, GPIO\n
+            - Serial communication\n\n
+		  v1.0\n
+		   - Initial release\n\n
+		  
+		  For more information please see:\n
+		  http://www.microchip.com/mcp2221  </string>
+    <string name="help_known_issues">\n
+	 - On some devices the MCP2221 may not be correctly detected by the app if it is 
+	  plugged out while the application is running. The OS will show a \"USB connector connected\" but the 
+	  app will not connect to the MCP2221. A potential solution is to start the app with the MCP2221 
+	  already connected to the USB port.\n\n
+	  -	If data is received when the COM port is closed, part of it may be displayed after the COM port is opened.\n\n
+-	When receiving more than 30 bytes of data on the COM port, the input values may be corrupted.\n\n
+	  </string>
+    <string name="help_pin_configuration"> \n
+	This page provides access to the MCP2221\'s GPIO settings. If a MCP2221 is connected when this page
+         is visible its settings will be read and the page updated. \n\n 
+<b>1) <u>Pin Function Selection </u></b> \n
+            This drop down menu allows setting the desired function for all of the four GPIO pins. \n
+            Available functions are:\n
+            GPO: \n 
+			<i>  - SSPND </i>– (OUT) Signals when the host has entered Suspend mode \n 
+			<i>  - LED_URX </i>– (OUT) UART RX Led activity output \n 
+			<i>  - Digital Output</i> \n 
+			<i>  - Digital Input</i> \n\n
+            GP1: \n 
+			<i>  - Clock Out </i>- Clock Reference Output \n <i>  - ADC1</i> – (IN) ADC Channel 1  \n <i>  - LED_UTX</i> – (OUT) UART TX Led activity output \n <i>  - IOC </i>– (IN) External interrupt edge detector\n <i>  - Digital Output</i> \n <i>  - Digital Input</i> \n\n
+            GP2: \n <i>  - USBCFG </i>– (OUT) USB device configured status \n <i>  - ADC2 </i>– (IN) ADC Channel 2 \n <i>  - DAC1 </i>– (OUT) DAC Output 1 \n <i>  - Digital Output</i> \n <i>  - Digital Input</i> \n\n
+            GP3: \n <i>  - LED_I2C</i> – (OUT) USB-I2C traffic indicator \n <i>  - ADC3 </i>– (IN) ADC Channel 3 \n <i>  - DAC2 </i>– (OUT) DAC Output 1 \n <i>  - Digital Output</i> \n <i>  - Digital Input</i> \n\n
+			
+			<b>2) <u>Pin Value Selection </u></b> \n
+			For pins configured as digital outputs this drop down menu allows setting the desired level of the pin (High/Low).\n\n
+			
+			<b>3) <u>Configure </u></b> \n
+			This button will configure a connected MCP2221 with the selected settings for the GPIO pins. The settings only 
+affect the runtime configuration and will be discarded after the MCP2221 is reset.  
+			</string>
+    <string name="help_pin_functions_adc">\n
+	This section provides control for the pins that are configured as analog inputs.\n\n
+	<b>1) <u>Voltage Reference Settings </u></b> \n
+	The drop down menu allows setting the voltage reference for the ADC pins. The new value is configured when the "Set" button is pressed.\n\n
+	
+	<b>2) <u>ADC Read Section </u></b> \n
+	If a pin is configured as an analog input then its value can be read by pressing the corresponding "Read GP" button. \n
+	Pressing the "Read All" button will read all pins configured for the ADC function.\n\n
+	
+	<b>3) <u>ADC values</u></b> \n
+	This area will contain the values read from the ADC pins.
+	</string>
+    <string name="help_pin_functions_clock">\n
+	<b>1) <u>Duty Cycle selection</u></b> \n
+	This drop down menu allows setting the duty cycle value for the signal that will be output on the Clock Out pin.\n\n
+	
+	<b>2) <u>Frequency selection </u></b> \n
+	This drop down menu allows setting the frequency of the signal that will be output on the Clock Out pin.\n\n
+	
+	<b>3) <u>Set Clock Out Configuration </u></b> \n
+	Pressing this button will update the settings for the Clock Out pin with the values selected from the drop down menus. 
+	The button is only active if GP1 has been configured for the clock out function.
+	</string>
+    <string name="help_pin_functions_dac">\n
+	<b>1) <u>Voltage Reference Settings </u></b> \n
+	The drop down menu allows setting the voltage reference for the DAC pins. The new value is configured when the "Set Vref" button is pressed.\n\n
+	
+	<b>2) <u>DAC Value settings</u></b> \n
+	This slider is used to configure the voltage that will be output on the pins configured as DAC outputs. The value on the pin(s) is updated when the "Set Value" button is pressed. If no pin is configured for DAC functionality this button is disabled.\n\n
+	
+	</string>
+    <string name="help_pin_functions_gpio">\n
+	<b>1) <u>GPIO Operation</u></b> \n
+	This drop down menu provides the selection for the GPIO operation: Read or Write.\n\n
+	
+	<b>2) <u>GPIO Read/Write Buttons</u></b> \n
+	Pressing a button will either read or write the corresponding pin, based on the GPIO Operation selection. If a pin is not configured as an input or output then its corresponding button will be disabled.\n\n
+	
+	<b>3) <u>GPIO Value</u></b> \n
+	For read operations this section indicates the value that was read from the input pins. For write operations this section will control the value that will be written to the output pins.\n\n
+	
+	<b>4) <u>Read/Write All</u></b> \n
+	Based on the operation selection, pressing this button will either read or write all the pins configured as inputs or outputs.	
+	</string>
+    <string name="help_serial_terminal">\n
+	<b>1) <u>Serial Port Settings</u></b> \n
+	This button will open a new window from which the COM settings can be altered.Available settings are: Baud Rate, RX format and Local Echo selection.\n\n
+	
+	<b>2) <u>Open/Close COM</u></b> \n
+	This button will open or close a Serial Port connection to the MCP2221.\n\n
+	
+	<b>3) <u>Output</u></b> \n
+	This section will contain the messages from the Serial Port communication. If local echo is enabled transmitted messages will be displayed in green. Received messages are displayed in black. If the Hex format is selected for received messages, any non printable ASCII characters will be displayed between curly braces. Ex: " Test {0D}{0A}"\n\n
+	
+	<b>4) <u>Data</u></b> \n
+	This area will contain the data that will be transmitted over the serial connection. After the data is sent, this field is automatically cleared.\n\n
+	
+	<b>5) <u>Send Button</u></b> \n
+	Pressing this button will send the contents of the "Data" filed over the serial connection.
+	</string>
+    <string name="help_serial_terminal_settings">\n
+	<b>1) <u>Baud Rate selection</u></b> \n
+	This drop down list allows the selection of the baud rate that will be used for the serial port. This selection is applied when the COM port is opened.\n\n
+	
+	<b>2) <u>Baud Rate Refresh</u></b> \n
+	Pressing this button will read the currently configured baud rate from the MCP2221. The "Baud Rate" field will be update with the read value.
+	
+	<b>3) <u>Rx Format</u></b> \n
+	This field allows the selection of the received messages formatting. If ASCII is selected only printable ASCII characters will be displayed in the "Output" field. If the Hex format is selected any non printable ASCII characters will be displayed between curly braces. Ex: " Test {0D}{0A}"\n\n
+	
+	<b>4) <u>Local Echo Selection</u></b> \n
+	This field allows toggling the local echo on/off. If local echo is enabled then the transmitted messages are displayed in the "Output" field, in green. When local echo is disabled, only the received messages are displayed in the "Output" field.\n\n
+	
+	<b>5) <u>Save Settings</u></b> \n
+	Pressing this button will save any changes made to the COM settings. If the window is dismissed without pressing "Save" then any changes made to the settings will be lost.
+	</string>
+    <string name="navigation_drawer_close"> drawer close</string>
+    <string name="navigation_drawer_open"> drawer open</string>
+    <string name="output">Output</string>
+    <string name="read_all">Read All</string>
+    <string name="reg_index">Reg Index</string>
+    <string name="send">Send</string>
+    <string name="title_section1_i2c_terminal">I2C/SMBus Terminal</string>
+    <string name="title_section2_pin_config">Pin Configuration</string>
+    <string name="title_section3_pin_functions">Pin Functions</string>
+    <string name="title_section4_serial_terminal">Serial Terminal</string>
+    <string name="title_section5_help">Help</string>
+    <string name="toggle_high">High</string>
+    <string name="toggle_low">Low</string>
+    <string name="write_all">Write All</string>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="CustomActionBarTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <style name="HelpTheme" parent="android:@Theme.Light.NoTitleBar"/>
+    <style name="MyActionBar" parent="android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:titleTextStyle">@style/TitleTextStyle</item>
+    </style>
+    <style name="TitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

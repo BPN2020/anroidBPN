@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblVrefDac"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/spinnerVrefDac"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Vref"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spinnerVrefDac"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/btnSetVrefDac"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/lblVrefDac"
+        android:entries="@array/vref" />
+
+    <Button
+        android:id="@+id/btnSetVrefDac"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/btnSetDac"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/seekBarDacValue"
+        android:layout_toRightOf="@+id/spinnerVrefDac"
+        android:text="Set Vref"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnSetDac"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignRight="@+id/seekBarDacValue"
+        android:layout_below="@+id/seekBarDacValue"
+        android:layout_marginTop="26dp"
+        android:text="Set Value"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/lblDacMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/seekBarDacValue"
+        android:layout_below="@+id/seekBarDacValue"
+        android:layout_marginLeft="10dp"
+        android:text="1"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/lblDacMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblDacMin"
+        android:layout_alignBottom="@+id/lblDacMin"
+        android:layout_alignRight="@+id/seekBarDacValue"
+        android:layout_marginRight="10dp"
+        android:text="31"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <SeekBar
+        android:id="@+id/seekBarDacValue"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spinnerVrefDac"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:indeterminate="false"
+        android:max="31"
+        android:progress="15" />
+
+    <TextView
+        android:id="@+id/lblDacValue"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblDacMin"
+        android:layout_alignBottom="@+id/lblDacMin"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="40dp"
+        android:text="Value: 15"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

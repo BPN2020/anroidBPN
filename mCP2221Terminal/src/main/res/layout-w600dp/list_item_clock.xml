@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/lblDutyCycle"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Duty Cycle"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/lblFrequency"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/lblDutyCycle"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/spinnerDutyCycle"
+        android:layout_marginTop="10dp"
+        android:text="Frequency"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spinnerFrequency"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerDutyCycle"
+        android:layout_toRightOf="@+id/lblFrequency"
+        android:entries="@array/frequency"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <Spinner
+        android:id="@+id/spinnerDutyCycle"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblDutyCycle"
+        android:entries="@array/dutyCycle" >
+    </Spinner>
+
+    <Button
+        android:id="@+id/btnClkSet"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/spinnerDutyCycle"
+        android:text="Set"
+        android:textSize="16sp" />
+
+</RelativeLayout>

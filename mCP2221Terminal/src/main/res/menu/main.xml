@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.microchip.android.mcp2221terminal.MainActivity" >
+
+    <item
+        android:id="@+id/action_connection_status"
+        android:enabled="false"
+        android:icon="@android:drawable/ic_notification_overlay"
+        android:left="0dp"
+        android:orderInCategory="101"
+        android:right="0dp"
+        android:showAsAction="always"
+        android:title="@string/connection_status"
+        android:visible="true"
+        tools:ignore="AlwaysShowAction"/>
+
+</menu>
