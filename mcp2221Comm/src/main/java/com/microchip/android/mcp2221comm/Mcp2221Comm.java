@@ -1724,22 +1724,22 @@ public class Mcp2221Comm {
 
         switch (pinNumber) {
             case 0:
-                // The next byte (index 5) will be the value used to set GP0’s pin direction
+                // The next byte (index 5) will be the value used to set GP0s pin direction
                 mTxData.put(4, (byte) 1);
                 mTxData.put(5, directionToSet);
                 break;
             case 1:
-                // The next byte (index 9) will be the value used to set GP1’s pin direction
+                // The next byte (index 9) will be the value used to set GP1s pin direction
                 mTxData.put(8, (byte) 1);
                 mTxData.put(9, directionToSet);
                 break;
             case 2:
-                // The next byte (index 13) will be the value used to set GP2’s pin direction
+                // The next byte (index 13) will be the value used to set GP2s pin direction
                 mTxData.put(12, (byte) 1);
                 mTxData.put(13, directionToSet);
                 break;
             case 3:
-                // The next byte (index 17) will be the value used to set GP3’s pin direction
+                // The next byte (index 17) will be the value used to set GP3s pin direction
                 mTxData.put(16, (byte) 1);
                 mTxData.put(17, directionToSet);
                 break;

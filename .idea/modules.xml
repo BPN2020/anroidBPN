@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Source.iml" filepath="$PROJECT_DIR$/Source.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mCP2221Terminal/mCP2221Terminal.iml" filepath="$PROJECT_DIR$/mCP2221Terminal/mCP2221Terminal.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mcp2221Comm/mcp2221Comm.iml" filepath="$PROJECT_DIR$/mcp2221Comm/mcp2221Comm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microchipUsb/microchipUsb.iml" filepath="$PROJECT_DIR$/microchipUsb/microchipUsb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mCP2221Terminal/mCP2221Terminal.iml" filepath="$PROJECT_DIR$/mCP2221Terminal/mCP2221Terminal.iml" group="mcp-2221-sample/mCP2221Terminal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mcp-2221-sample.iml" filepath="$PROJECT_DIR$/.idea/modules/mcp-2221-sample.iml" group="mcp-2221-sample" />
+      <module fileurl="file://$PROJECT_DIR$/mcp2221Comm/mcp2221Comm.iml" filepath="$PROJECT_DIR$/mcp2221Comm/mcp2221Comm.iml" group="mcp-2221-sample/mcp2221Comm" />
+      <module fileurl="file://$PROJECT_DIR$/microchipUsb/microchipUsb.iml" filepath="$PROJECT_DIR$/microchipUsb/microchipUsb.iml" group="mcp-2221-sample/microchipUsb" />
     </modules>
   </component>
 </project>

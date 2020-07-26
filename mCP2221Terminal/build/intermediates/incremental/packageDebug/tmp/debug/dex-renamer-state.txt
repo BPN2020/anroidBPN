@@ -1,13 +1,4 @@
-#Thu Jun 07 09:32:35 EDT 2018
-path.3=classes.dex
-path.2=classes.dex
-path.1=classes.dex
+#Sat Jul 25 16:36:58 IRDT 2020
+base.0=C\:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
-renamed.3=classes4.dex
-renamed.2=classes3.dex
-renamed.1=classes2.dex
 renamed.0=classes.dex
-base.3=C\:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\transforms\\dexMerger\\debug\\30
-base.2=C\:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\transforms\\dexMerger\\debug\\31
-base.1=C\:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\transforms\\dexMerger\\debug\\29
-base.0=C\:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\transforms\\dexMerger\\debug\\32

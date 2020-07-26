@@ -1,19 +1,7 @@
 #Internal package file, do not edit.
-#Wed Jun 06 15:06:53 EDT 2018
-1.base=C\:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\transforms\\dexMerger\\debug\\30
-2.path=classes.dex
+#Sat Jul 25 16:36:58 IRDT 2020
 0.baseType=DIRECTORY
-3.baseType=DIRECTORY
-2.base=C\:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\transforms\\dexMerger\\debug\\31
-3.set=DEX
-2.set=DEX
-1.baseType=DIRECTORY
-3.path=classes.dex
-count=4
-1.set=DEX
+0.base=C\:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 0.path=classes.dex
-3.base=C\:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\transforms\\dexMerger\\debug\\29
 0.set=DEX
-0.base=C\:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\transforms\\dexMerger\\debug\\32
-2.baseType=DIRECTORY
-1.path=classes.dex
+count=1

@@ -1,434 +1,434 @@
 [
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_help_serial_terminal_settings.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\help_serial_terminal_settings.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_help_serial_terminal_settings.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\help_serial_terminal_settings.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_list_item_dac.xml.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\layout\\list_item_dac.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_help_pin_configuration.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\help_pin_configuration.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_fragment_help.xml.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\layout\\fragment_help.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout-w600dp_fragment_pin_functions.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout-w600dp\\fragment_pin_functions.xml"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_help_pin_functions_dac.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\help_pin_functions_dac.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_perm_group_system_tools.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\perm_group_system_tools.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout-w600dp_list_item_clock.xml.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\layout-w600dp\\list_item_clock.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_help_pin_configuration.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\help_pin_configuration.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_help_serial_terminal.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\help_serial_terminal.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_list_focused_styled.9.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\list_focused_styled.9.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_list_focused_styled.9.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\list_focused_styled.9.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_list_focused_styled.9.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\list_focused_styled.9.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_help_i2c_terminal.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\help_i2c_terminal.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_help_pin_functions_adc.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\help_pin_functions_adc.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_help_serial_terminal.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\help_serial_terminal.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_drawer_shadow.9.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\drawer_shadow.9.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_help_pin_configuration.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\help_pin_configuration.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_help_i2c_terminal.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\help_i2c_terminal.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_perm_group_system_tools.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\perm_group_system_tools.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main.xml.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\layout\\fragment_main.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout-w600dp_list_item_clock.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout-w600dp\\list_item_clock.xml"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_help_pin_configuration.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\help_pin_configuration.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_drawer.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\ic_drawer.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_fragment_pin_functions.xml.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\layout\\fragment_pin_functions.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_help_pin_functions_clock.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\help_pin_functions_clock.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_list_item_gpio.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout\\list_item_gpio.xml"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_help_pin_functions_gpio.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\help_pin_functions_gpio.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_help_pin_functions_dac.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\help_pin_functions_dac.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_list_focused_styled.9.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\list_focused_styled.9.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_help_serial_terminal_settings.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\help_serial_terminal_settings.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_refresh.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\refresh.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_help_pin_functions_adc.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\help_pin_functions_adc.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_drawer.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\ic_drawer.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout-w600dp_activity_main.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout-w600dp\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_help_serial_terminal_settings.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\help_serial_terminal_settings.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_list_focused_styled.9.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\list_focused_styled.9.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_help_pin_functions_gpio.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\help_pin_functions_gpio.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_drawer_shadow.9.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\drawer_shadow.9.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_perm_group_system_tools.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\perm_group_system_tools.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_help_pin_configuration.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\help_pin_configuration.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_list_item_adc.xml.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\layout\\list_item_adc.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_list_item_adc.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout\\list_item_adc.xml"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_perm_group_system_tools.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\perm_group_system_tools.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_help_pin_functions_gpio.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\help_pin_functions_gpio.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_help_serial_terminal.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\help_serial_terminal.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_help_serial_terminal_settings.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\help_serial_terminal_settings.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_send.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\ic_menu_send.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_menu_send.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\ic_menu_send.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_list_item_clock.xml.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\layout\\list_item_clock.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_help_pin_functions_adc.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\help_pin_functions_adc.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_perm_group_system_tools.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\perm_group_system_tools.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_help_pin_functions_clock.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\help_pin_functions_clock.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_help_pin_functions_adc.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\help_pin_functions_adc.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_dialog_com_settings.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout\\dialog_com_settings.xml"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_help_serial_terminal.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\help_serial_terminal.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_refresh.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\refresh.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_help_pin_functions_gpio.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\help_pin_functions_gpio.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_send.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\ic_menu_send.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_refresh.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\refresh.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_help_pin_functions_clock.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\help_pin_functions_clock.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_help_i2c_terminal.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\help_i2c_terminal.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_help_pin_functions_clock.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\help_pin_functions_clock.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_help_serial_terminal.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\help_serial_terminal.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_help_pin_functions_adc.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\help_pin_functions_adc.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_help_serial_terminal_settings.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\help_serial_terminal_settings.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_help_serial_terminal.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\help_serial_terminal.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_drawer_shadow.9.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\drawer_shadow.9.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_drawer.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\ic_drawer.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_help_pin_functions_dac.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\help_pin_functions_dac.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_help_i2c_terminal.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\help_i2c_terminal.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_fragment_pin_functions.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout\\fragment_pin_functions.xml"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_send.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\ic_menu_send.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_drawer_shadow.9.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\drawer_shadow.9.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout-w600dp_list_item_dac.xml.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\layout-w600dp\\list_item_dac.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_help_serial_terminal_settings.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\help_serial_terminal_settings.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout-w600dp_fragment_pin_config.xml.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\layout-w600dp\\fragment_pin_config.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_help_i2c_terminal.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\help_i2c_terminal.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_send.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\ic_menu_send.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu_send.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\ic_menu_send.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout-w600dp_fragment_main.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout-w600dp\\fragment_main.xml"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_list_focused_styled.9.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\list_focused_styled.9.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_drawer.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\ic_drawer.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_drawer_shadow.9.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\drawer_shadow.9.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_fragment_navigation_drawer.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout\\fragment_navigation_drawer.xml"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_list_item_gpio.xml.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\layout\\list_item_gpio.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_fragment_serial_terminal.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout\\fragment_serial_terminal.xml"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_help_pin_configuration.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\help_pin_configuration.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_help_pin_configuration.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\help_pin_configuration.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_menu_send.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\ic_menu_send.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_help_pin_configuration.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\help_pin_configuration.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_refresh.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\refresh.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_help_pin_functions_dac.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\help_pin_functions_dac.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_refresh.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\refresh.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_help_pin_functions_adc.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\help_pin_functions_adc.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_help_pin_functions_clock.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\help_pin_functions_clock.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout-w600dp_fragment_pin_functions.xml.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\layout-w600dp\\fragment_pin_functions.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_list_item_dac.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout\\list_item_dac.xml"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_help_pin_functions_dac.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\help_pin_functions_dac.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_list_group.xml.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\layout\\list_group.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_help_pin_functions_adc.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\help_pin_functions_adc.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_drawer.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\ic_drawer.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_help_pin_configuration.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\help_pin_configuration.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_help_serial_terminal_settings.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\help_serial_terminal_settings.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_fragment_pin_config.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout\\fragment_pin_config.xml"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_help_pin_configuration.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\help_pin_configuration.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_menu_send.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\ic_menu_send.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_fragment_serial_terminal.xml.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\layout\\fragment_serial_terminal.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_refresh.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\refresh.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_help_pin_functions_dac.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\help_pin_functions_dac.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\menu\\main.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_drawer.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\ic_drawer.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_perm_group_system_tools.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\perm_group_system_tools.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout-w600dp_list_item_gpio.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout-w600dp\\list_item_gpio.xml"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_help_pin_configuration.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\help_pin_configuration.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_help_pin_functions_gpio.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\help_pin_functions_gpio.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_drawer_shadow.9.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\drawer_shadow.9.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_list_focused_styled.9.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\list_focused_styled.9.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_refresh.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\refresh.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_help_pin_functions_dac.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\help_pin_functions_dac.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_help_pin_functions_dac.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\help_pin_functions_dac.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_help_pin_functions_clock.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\help_pin_functions_clock.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_help_pin_functions_adc.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\help_pin_functions_adc.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_help_pin_functions_clock.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\help_pin_functions_clock.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_list_focused_styled.9.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\list_focused_styled.9.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_help_serial_terminal_settings.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\help_serial_terminal_settings.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_help_i2c_terminal.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\help_i2c_terminal.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_refresh.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\refresh.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_help_i2c_terminal.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\help_i2c_terminal.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_help_pin_functions_adc.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\help_pin_functions_adc.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_help_pin_functions_adc.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\help_pin_functions_adc.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_help_pin_functions_gpio.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\help_pin_functions_gpio.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_help_pin_functions_dac.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\help_pin_functions_dac.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_perm_group_system_tools.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\perm_group_system_tools.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_help_pin_functions_gpio.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\help_pin_functions_gpio.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_help_pin_functions_adc.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\help_pin_functions_adc.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_fragment_pin_config.xml.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\layout\\fragment_pin_config.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu_send.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\ic_menu_send.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_menu_send.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\ic_menu_send.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout-w600dp_list_item_adc.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout-w600dp\\list_item_adc.xml"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_help_pin_functions_clock.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\help_pin_functions_clock.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_help_pin_functions_dac.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\help_pin_functions_dac.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_help_serial_terminal_settings.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\help_serial_terminal_settings.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_list_focused_styled.9.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\list_focused_styled.9.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_list_focused_styled.9.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\list_focused_styled.9.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_help_serial_terminal.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\help_serial_terminal.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_help_serial_terminal.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\help_serial_terminal.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_help_i2c_terminal.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\help_i2c_terminal.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_help_serial_terminal_settings.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\help_serial_terminal_settings.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout-w600dp_list_item_adc.xml.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\layout-w600dp\\list_item_adc.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_list_focused_styled.9.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\list_focused_styled.9.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_drawer_shadow.9.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\drawer_shadow.9.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout-w600dp_fragment_pin_config.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout-w600dp\\fragment_pin_config.xml"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_help_pin_functions_clock.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\help_pin_functions_clock.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_help_pin_functions_gpio.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\help_pin_functions_gpio.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_help_pin_configuration.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\help_pin_configuration.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_help_serial_terminal.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\help_serial_terminal.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_help_serial_terminal.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\help_serial_terminal.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout\\fragment_main.xml"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_perm_group_system_tools.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\perm_group_system_tools.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_help_i2c_terminal.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\help_i2c_terminal.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_help_i2c_terminal.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\help_i2c_terminal.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_help_pin_functions_gpio.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\help_pin_functions_gpio.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_help_i2c_terminal.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\help_i2c_terminal.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_perm_group_system_tools.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\perm_group_system_tools.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout-w600dp_activity_main.xml.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\layout-w600dp\\activity_main.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_help_serial_terminal.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\help_serial_terminal.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_drawer_shadow.9.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\drawer_shadow.9.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_help_serial_terminal_settings.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\help_serial_terminal_settings.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_fragment_navigation_drawer.xml.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\layout\\fragment_navigation_drawer.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_list_item_clock.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout\\list_item_clock.xml"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_help_pin_functions_clock.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\help_pin_functions_clock.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_send.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\ic_menu_send.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_help_pin_functions_adc.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\help_pin_functions_adc.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_help_pin_functions_clock.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\help_pin_functions_clock.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_list_focused_styled.9.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\list_focused_styled.9.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout-w600dp_fragment_main.xml.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\layout-w600dp\\fragment_main.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_refresh.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\refresh.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_refresh.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\refresh.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_fragment_help.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout\\fragment_help.xml"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_drawer.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\ic_drawer.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_list_group.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout\\list_group.xml"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_perm_group_system_tools.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\perm_group_system_tools.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout-w600dp_list_item_dac.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout-w600dp\\list_item_dac.xml"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_dialog_com_settings.xml.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\layout\\dialog_com_settings.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_help_i2c_terminal.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\help_i2c_terminal.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_help_pin_functions_dac.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\help_pin_functions_dac.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_help_pin_functions_gpio.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\help_pin_functions_gpio.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_perm_group_system_tools.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\perm_group_system_tools.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_help_pin_functions_gpio.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\help_pin_functions_gpio.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_help_pin_functions_clock.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\help_pin_functions_clock.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_help_pin_functions_gpio.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\help_pin_functions_gpio.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout-w600dp_list_item_gpio.xml.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\layout-w600dp\\list_item_gpio.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_help_serial_terminal.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\help_serial_terminal.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_refresh.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\refresh.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_perm_group_system_tools.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\perm_group_system_tools.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_refresh.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\refresh.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_drawer.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\ic_drawer.png"
     },
     {
-        "merged": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_help_pin_functions_dac.png.flat",
-        "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\help_pin_functions_dac.png"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_send.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\ic_menu_send.png"
     }
 ]

@@ -30,6 +30,7 @@
 package com.microchip.android.mcp2221terminal;
 
 import android.R.drawable;
+import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.app.Activity;
 import android.app.Fragment;
@@ -762,28 +763,35 @@ public class MainActivity extends Activity implements
 
             // get the IDs for UI elements and add event listeners
             mTxtAddress = (EditText) rootView.findViewById(R.id.txtAddress);
-            mTxtAddress.addTextChangedListener(this);
+            mTxtAddress.setText("90");
+            mTxtAddress.setFocusable(false);
+            //mTxtAddress.addTextChangedListener(this);
 
             mTxtData = (EditText) rootView.findViewById(R.id.txtData);
-            mTxtData.addTextChangedListener(this);
+            mTxtData.setText("2");
+//            mTxtData.setFocusable(false);
+            //mTxtData.addTextChangedListener(this);
             // on a long click, show a dialog to clear the data field
-            mTxtData.setOnLongClickListener(new View.OnLongClickListener() {
-                @Override
-                public boolean onLongClick(final View v) {
-                    // show the dialog to clear the output window
-                    mClearDataDialog.show(getFragmentManager(), TAG);
-                    return false;
-                }
-            });
+//            mTxtData.setOnLongClickListener(new View.OnLongClickListener() {
+//                @Override
+//                public boolean onLongClick(final View v) {
+//                    // show the dialog to clear the output window
+//                    mClearDataDialog.show(getFragmentManager(), TAG);
+//                    return false;
+//                }
+//            });
 
             mTxtRegIndex = (EditText) rootView.findViewById(R.id.txtRegIndex);
             mTxtRegIndex.addTextChangedListener(this);
 
             mSpinnerOperation = (Spinner) rootView.findViewById(R.id.spinnerOperation);
             mSpinnerOperation.setOnItemSelectedListener(new CustomOnItemSelectedListener());
+            mSpinnerOperation.setEnabled(false);
+            mSpinnerOperation.setSelection(1);
 
             mSpinnerAddrLength = (Spinner) rootView.findViewById(R.id.SpinnerAddrLength);
             mSpinnerAddrLength.setOnItemSelectedListener(new CustomOnItemSelectedListener());
+            mSpinnerAddrLength.setEnabled(false);
 
             mSpinnerPEC = (Spinner) rootView.findViewById(R.id.SpinnerPEC);
             mSpinnerPEC.setOnItemSelectedListener(new CustomOnItemSelectedListener());

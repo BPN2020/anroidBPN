@@ -43,7 +43,7 @@
     </string-array>
     <string-array name="speed_array">
         <item>100000 bps</item>
-        <item>400000 bps</item>
+        <!-- <item>400000 bps</item> -->
     </string-array>
     <string-array name="gp0_functions">
         <item>SSPND</item>

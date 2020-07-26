@@ -1,17 +1,17 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\JJose\\StudioProjects\\Source\\mCP2221Terminal\\src\\main\\res\\values-v11\\styles.xml",
+                    "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\values-v11\\styles.xml",
                     "from": {
                         "startLines": "6",
                         "startColumns": "4",
-                        "startOffsets": "182",
+                        "startOffsets": "183",
                         "endLines": "8",
                         "endColumns": "12",
-                        "endOffsets": "316"
+                        "endOffsets": "317"
                     },
                     "to": {
                         "startLines": "2",
