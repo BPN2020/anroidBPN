@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\help_pin_configuration.png"
     },
     {
-        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout-w600dp_fragment_pin_functions.xml.flat",
-        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout-w600dp\\fragment_pin_functions.xml"
-    },
-    {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_perm_group_system_tools.png.flat",
         "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\perm_group_system_tools.png"
+    },
+    {
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout-w600dp_fragment_pin_functions.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout-w600dp\\fragment_pin_functions.xml"
     },
     {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_help_pin_configuration.png.flat",
@@ -64,12 +64,12 @@
         "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\help_pin_functions_dac.png"
     },
     {
-        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_help_serial_terminal_settings.png.flat",
-        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\help_serial_terminal_settings.png"
-    },
-    {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_help_pin_functions_adc.png.flat",
         "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\help_pin_functions_adc.png"
+    },
+    {
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_help_serial_terminal_settings.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\help_serial_terminal_settings.png"
     },
     {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout-w600dp_activity_main.xml.flat",
@@ -84,12 +84,12 @@
         "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\drawer_shadow.9.png"
     },
     {
-        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_help_pin_configuration.png.flat",
-        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\help_pin_configuration.png"
-    },
-    {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_list_item_adc.xml.flat",
         "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout\\list_item_adc.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_help_pin_configuration.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\help_pin_configuration.png"
     },
     {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_help_pin_functions_gpio.png.flat",
@@ -130,6 +130,10 @@
     {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_help_pin_functions_clock.png.flat",
         "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\help_pin_functions_clock.png"
+    },
+    {
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_main_show.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout\\main_show.xml"
     },
     {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_help_pin_functions_adc.png.flat",
@@ -188,12 +192,12 @@
         "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\help_pin_configuration.png"
     },
     {
-        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_refresh.png.flat",
         "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\refresh.png"
+    },
+    {
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_refresh.png.flat",
@@ -236,6 +240,10 @@
         "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\help_pin_functions_dac.png"
     },
     {
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_default_page.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout\\default_page.xml"
+    },
+    {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_drawer.png.flat",
         "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\ic_drawer.png"
     },
@@ -260,12 +268,12 @@
         "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\refresh.png"
     },
     {
-        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_help_pin_functions_dac.png.flat",
-        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\help_pin_functions_dac.png"
-    },
-    {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_help_pin_functions_adc.png.flat",
         "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\help_pin_functions_adc.png"
+    },
+    {
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_help_pin_functions_dac.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\help_pin_functions_dac.png"
     },
     {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_list_focused_styled.9.png.flat",
@@ -292,12 +300,12 @@
         "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\perm_group_system_tools.png"
     },
     {
-        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_help_pin_functions_adc.png.flat",
-        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\help_pin_functions_adc.png"
-    },
-    {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu_send.png.flat",
         "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\ic_menu_send.png"
+    },
+    {
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_help_pin_functions_adc.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\help_pin_functions_adc.png"
     },
     {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout-w600dp_list_item_adc.xml.flat",
@@ -322,6 +330,10 @@
     {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_help_serial_terminal_settings.png.flat",
         "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\help_serial_terminal_settings.png"
+    },
+    {
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable_help.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable\\help.png"
     },
     {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_list_focused_styled.9.png.flat",
@@ -368,20 +380,24 @@
         "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout\\list_item_clock.xml"
     },
     {
-        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_send.png.flat",
-        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\ic_menu_send.png"
-    },
-    {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_help_pin_functions_clock.png.flat",
         "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\help_pin_functions_clock.png"
     },
     {
-        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_send.png.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xhdpi\\ic_menu_send.png"
+    },
+    {
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_fragment_retrieve.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout\\fragment_retrieve.xml"
     },
     {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_refresh.png.flat",
         "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-hdpi\\refresh.png"
+    },
+    {
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_fragment_help.xml.flat",
@@ -392,12 +408,16 @@
         "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout\\list_group.xml"
     },
     {
-        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout-w600dp_list_item_dac.xml.flat",
-        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout-w600dp\\list_item_dac.xml"
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_expand_item.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout\\expand_item.xml"
     },
     {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_help_i2c_terminal.png.flat",
         "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-xxhdpi\\help_i2c_terminal.png"
+    },
+    {
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout-w600dp_list_item_dac.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout-w600dp\\list_item_dac.xml"
     },
     {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_help_pin_functions_dac.png.flat",
@@ -412,8 +432,16 @@
         "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-mdpi\\help_pin_functions_gpio.png"
     },
     {
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\layout_retrieve_list_item.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\layout\\retrieve_list_item.xml"
+    },
+    {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_help_pin_functions_gpio.png.flat",
         "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable-ldpi\\help_pin_functions_gpio.png"
+    },
+    {
+        "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable_round_button.xml.flat",
+        "source": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\src\\main\\res\\drawable\\round_button.xml"
     },
     {
         "merged": "C:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_help_serial_terminal.png.flat",

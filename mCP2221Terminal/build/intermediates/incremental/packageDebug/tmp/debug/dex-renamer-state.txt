@@ -1,4 +1,4 @@
-#Sat Jul 25 16:36:58 IRDT 2020
+#Mon Aug 03 09:13:28 IRDT 2020
 base.0=C\:\\Users\\Lashgari\\StudioProjects\\mcp-2221-sample\\mCP2221Terminal\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

@@ -48,6 +48,7 @@ int attr alignmentMode 0x0101037a
 int attr allContactsName 0x010102cc
 int attr allowBackup 0x01010280
 int attr allowClearUserData 0x01010005
+int attr allowEmbedded 0x010103f5
 int attr allowParallelSyncs 0x01010332
 int attr allowSingleTap 0x01010259
 int attr allowTaskReparenting 0x01010204
@@ -993,6 +994,7 @@ int attr windowOverscan 0x010103cf
 int attr windowShowAnimation 0x010100b6
 int attr windowShowWallpaper 0x01010292
 int attr windowSoftInputMode 0x0101022b
+int attr windowSwipeToDismiss 0x010103f3
 int attr windowTitleBackgroundStyle 0x0101005c
 int attr windowTitleSize 0x0101005a
 int attr windowTitleStyle 0x0101005b

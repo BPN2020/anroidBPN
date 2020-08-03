@@ -39,6 +39,7 @@ import android.preference.PreferenceManager;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -127,8 +128,8 @@ public class NavigationDrawerFragment extends Fragment {
         });
         mDrawerListView.setAdapter(new ArrayAdapter<String>(getActionBar().getThemedContext(),
                 android.R.layout.simple_list_item_activated_1, android.R.id.text1, new String[] {
-                        getString(R.string.title_section1_i2c_terminal),
                         getString(R.string.title_section2_pin_config),
+                        getString(R.string.title_section1_i2c_terminal),
                         getString(R.string.title_section3_pin_functions),
                         getString(R.string.title_section4_serial_terminal),
                         getString(R.string.title_section5_help) }));

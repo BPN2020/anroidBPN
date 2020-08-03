@@ -40,6 +40,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 /**
  * Help Fragment.
@@ -76,230 +77,230 @@ public class HelpFragment extends Fragment {
             onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_help, container, false);
 
-        final EditText txtHelp = (EditText) rootView.findViewById(R.id.txtHelp);
+        final TextView txtHelp = (TextView) rootView.findViewById(R.id.txtHelp);
+        txtHelp.setText(R.string.help_txt);
 
-        final EditText txtHelpItem1 = (EditText) rootView.findViewById(R.id.txtHelpItem1);
-        final EditText txtHelpItem2 = (EditText) rootView.findViewById(R.id.txtHelpItem2);
-        final EditText txtHelpItem3 = (EditText) rootView.findViewById(R.id.txtHelpItem3);
-
-        Spinner spinnnerHelpItems = (Spinner) rootView.findViewById(R.id.spinnerHelpItens);
-        spinnnerHelpItems.setOnItemSelectedListener(new Spinner.OnItemSelectedListener() {
-
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int pos, final long id) {
-
-                Drawable tempDrawable;
-                // update the help image text based on the selected index.
-                switch (pos) {
-                    case I2C_TERMINAL:
-                        tempDrawable =
-                                parent.getContext().getResources()
-                                        .getDrawable(R.drawable.help_i2c_terminal);
-                        if (tempDrawable.getIntrinsicWidth() > txtHelp.getWidth()) {
-                            // on some devices the drawable is wider than the screen,
-                            // so resize the drawable so it has a bit of white space around it
-                            int dif = tempDrawable.getIntrinsicWidth() - txtHelp.getWidth() + 20;
-
-                            tempDrawable.setBounds(0, 0, tempDrawable.getIntrinsicWidth() - dif,
-                                    tempDrawable.getIntrinsicHeight() - dif);
-
-                            txtHelp.setCompoundDrawables(null, tempDrawable, null, null);
-                        } else {
-                            txtHelp.setCompoundDrawablesWithIntrinsicBounds(null, tempDrawable,
-                                    null, null);
-                        }
-                        // update the help text
-                        txtHelp.setText(R.string.help_i2c_terminal);
-                        // Highlight any links in the help text
-                        Linkify.addLinks(txtHelp, Linkify.WEB_URLS);
-
-                        // hide any items that shouldn't be visible
-                        txtHelpItem1.setVisibility(View.INVISIBLE);
-                        txtHelpItem2.setVisibility(View.INVISIBLE);
-                        txtHelpItem3.setVisibility(View.INVISIBLE);
-                        break;
-
-                    case PIN_CONFIGURATION:
-                        txtHelp.setText(R.string.help_pin_configuration);
-
-                        tempDrawable =
-                                parent.getContext().getResources()
-                                        .getDrawable(R.drawable.help_pin_configuration);
-                        if (tempDrawable.getIntrinsicWidth() > txtHelp.getWidth()) {
-                            // on some devices the drawable is wider than the screen,
-                            // so resize the drawable so it has a bit of white space around it
-                            int dif = tempDrawable.getIntrinsicWidth() - txtHelp.getWidth() + 20;
-
-                            tempDrawable.setBounds(0, 0, tempDrawable.getIntrinsicWidth() - dif,
-                                    tempDrawable.getIntrinsicHeight() - dif);
-
-                            txtHelp.setCompoundDrawables(null, tempDrawable, null, null);
-                        } else {
-                            txtHelp.setCompoundDrawablesWithIntrinsicBounds(null, tempDrawable,
-                                    null, null);
-                        }
-                        // hide any items that shouldn't be visible
-                        txtHelpItem1.setVisibility(View.INVISIBLE);
-                        txtHelpItem2.setVisibility(View.INVISIBLE);
-                        txtHelpItem3.setVisibility(View.INVISIBLE);
-                        break;
-                    case PIN_FUNCTIONS:
-                        // ADC help section
-                        tempDrawable =
-                                parent.getContext().getResources()
-                                        .getDrawable(R.drawable.help_pin_functions_adc);
-                        if (tempDrawable.getIntrinsicWidth() > txtHelp.getWidth()) {
-                            // on some devices the drawable is wider than the screen,
-                            // so resize the drawable so it has a bit of white space around it
-                            int dif = tempDrawable.getIntrinsicWidth() - txtHelp.getWidth() + 20;
-
-                            tempDrawable.setBounds(0, 0, tempDrawable.getIntrinsicWidth() - dif,
-                                    tempDrawable.getIntrinsicHeight() - dif);
-
-                            txtHelp.setCompoundDrawables(null, tempDrawable, null, null);
-                        } else {
-                            txtHelp.setCompoundDrawablesWithIntrinsicBounds(null, tempDrawable,
-                                    null, null);
-                        }
-                        txtHelp.setText(R.string.help_pin_functions_adc);
-
-                        // Clock out help section
-                        tempDrawable =
-                                parent.getContext().getResources()
-                                        .getDrawable(R.drawable.help_pin_functions_clock);
-                        if (tempDrawable.getIntrinsicWidth() > txtHelpItem1.getWidth()) {
-                            // on some devices the drawable is wider than the screen,
-                            // so resize the drawable so it has a bit of white space around it
-                            int dif =
-                                    tempDrawable.getIntrinsicWidth() - txtHelpItem1.getWidth() + 20;
-
-                            tempDrawable.setBounds(0, 0, tempDrawable.getIntrinsicWidth() - dif,
-                                    tempDrawable.getIntrinsicHeight() - dif);
-
-                            txtHelpItem1.setCompoundDrawables(null, tempDrawable, null, null);
-                        } else {
-                            txtHelpItem1.setCompoundDrawablesWithIntrinsicBounds(null,
-                                    tempDrawable, null, null);
-                        }
-                        txtHelpItem1.setText(R.string.help_pin_functions_clock);
-                        txtHelpItem1.setVisibility(View.VISIBLE);
-
-                        // DAC help section
-                        tempDrawable =
-                                parent.getContext().getResources()
-                                        .getDrawable(R.drawable.help_pin_functions_dac);
-                        if (tempDrawable.getIntrinsicWidth() > txtHelpItem2.getWidth()) {
-                            // on some devices the drawable is wider than the screen,
-                            // so resize the drawable so it has a bit of white space around it
-                            int dif =
-                                    tempDrawable.getIntrinsicWidth() - txtHelpItem2.getWidth() + 20;
-
-                            tempDrawable.setBounds(0, 0, tempDrawable.getIntrinsicWidth() - dif,
-                                    tempDrawable.getIntrinsicHeight() - dif);
-
-                            txtHelpItem2.setCompoundDrawables(null, tempDrawable, null, null);
-                        } else {
-                            txtHelpItem2.setCompoundDrawablesWithIntrinsicBounds(null,
-                                    tempDrawable, null, null);
-                        }
-                        txtHelpItem2.setText(R.string.help_pin_functions_dac);
-                        txtHelpItem2.setVisibility(View.VISIBLE);
-
-                        // GPIO help section
-                        tempDrawable =
-                                parent.getContext().getResources()
-                                        .getDrawable(R.drawable.help_pin_functions_gpio);
-                        if (tempDrawable.getIntrinsicWidth() > txtHelpItem3.getWidth()) {
-                            // on some devices the drawable is wider than the screen,
-                            // so resize the drawable so it has a bit of white space around it
-                            int dif =
-                                    tempDrawable.getIntrinsicWidth() - txtHelpItem3.getWidth() + 20;
-
-                            tempDrawable.setBounds(0, 0, tempDrawable.getIntrinsicWidth() - dif,
-                                    tempDrawable.getIntrinsicHeight() - dif);
-
-                            txtHelpItem3.setCompoundDrawables(null, tempDrawable, null, null);
-                        } else {
-                            txtHelpItem3.setCompoundDrawablesWithIntrinsicBounds(null,
-                                    tempDrawable, null, null);
-                        }
-                        txtHelpItem3.setText(R.string.help_pin_functions_gpio);
-                        txtHelpItem3.setVisibility(View.VISIBLE);
-
-                        break;
-                    case SERIAL_TERMINAL:
-                        tempDrawable =
-                                parent.getContext().getResources()
-                                        .getDrawable(R.drawable.help_serial_terminal);
-                        if (tempDrawable.getIntrinsicWidth() > txtHelp.getWidth()) {
-                            // on some devices the drawable is wider than the screen,
-                            // so resize the drawable so it has a bit of white space around it
-                            int dif = tempDrawable.getIntrinsicWidth() - txtHelp.getWidth() + 20;
-
-                            tempDrawable.setBounds(0, 0, tempDrawable.getIntrinsicWidth() - dif,
-                                    tempDrawable.getIntrinsicHeight() - dif);
-
-                            txtHelp.setCompoundDrawables(null, tempDrawable, null, null);
-                        } else {
-                            txtHelp.setCompoundDrawablesWithIntrinsicBounds(null, tempDrawable,
-                                    null, null);
-                        }
-
-                        // update the help text
-                        txtHelp.setText(R.string.help_serial_terminal);
-
-                        tempDrawable =
-                                parent.getContext().getResources()
-                                        .getDrawable(R.drawable.help_serial_terminal_settings);
-                        if (tempDrawable.getIntrinsicWidth() > txtHelpItem1.getWidth()) {
-                            // on some devices the drawable is wider than the screen,
-                            // so resize the drawable so it has a bit of white space around it
-                            int dif =
-                                    tempDrawable.getIntrinsicWidth() - txtHelpItem1.getWidth() + 20;
-
-                            tempDrawable.setBounds(0, 0, tempDrawable.getIntrinsicWidth() - dif,
-                                    tempDrawable.getIntrinsicHeight() - dif);
-
-                            txtHelpItem1.setCompoundDrawables(null, tempDrawable, null, null);
-                        } else {
-                            txtHelpItem1.setCompoundDrawablesWithIntrinsicBounds(null,
-                                    tempDrawable, null, null);
-                        }
-
-                        // update the help text
-                        txtHelpItem1.setText(R.string.help_serial_terminal_settings);
-                        txtHelpItem1.setVisibility(View.VISIBLE);
-
-                        // hide any items that shouldn't be visible
-                        txtHelpItem2.setVisibility(View.INVISIBLE);
-                        txtHelpItem3.setVisibility(View.INVISIBLE);
-                        break;
-
-                    case KNOWN_ISSUES:
-
-                        txtHelp.setCompoundDrawablesWithIntrinsicBounds(null, null, null, null);
-                        // update the help text
-                        txtHelp.setText(R.string.help_known_issues);
-
-                        // hide any items that shouldn't be visible
-                        txtHelpItem1.setVisibility(View.INVISIBLE);
-                        txtHelpItem2.setVisibility(View.INVISIBLE);
-                        txtHelpItem3.setVisibility(View.INVISIBLE);
-                        break;
-
-                    default:
-                        break;
-                }
-
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> arg0) {
-                // TODO Auto-generated method stub
-
-            }
-        });
-
+//        final EditText txtHelpItem1 = (EditText) rootView.findViewById(R.id.txtHelpItem1);
+//        final EditText txtHelpItem2 = (EditText) rootView.findViewById(R.id.txtHelpItem2);
+//        final EditText txtHelpItem3 = (EditText) rootView.findViewById(R.id.txtHelpItem3);
+//
+//        Spinner spinnnerHelpItems = (Spinner) rootView.findViewById(R.id.spinnerHelpItens);
+//        spinnnerHelpItems.setOnItemSelectedListener(new Spinner.OnItemSelectedListener() {
+//
+//            @Override
+//            public void onItemSelected(AdapterView<?> parent, View view, int pos, final long id) {
+//
+//                Drawable tempDrawable;
+//                // update the help image text based on the selected index.
+//                switch (pos) {
+//                    case I2C_TERMINAL:
+//                        tempDrawable =
+//                                parent.getContext().getResources()
+//                                        .getDrawable(R.drawable.help_i2c_terminal);
+//                        if (tempDrawable.getIntrinsicWidth() > txtHelp.getWidth()) {
+//                            // on some devices the drawable is wider than the screen,
+//                            // so resize the drawable so it has a bit of white space around it
+//                            int dif = tempDrawable.getIntrinsicWidth() - txtHelp.getWidth() + 20;
+//
+//                            tempDrawable.setBounds(0, 0, tempDrawable.getIntrinsicWidth() - dif,
+//                                    tempDrawable.getIntrinsicHeight() - dif);
+//
+//                            txtHelp.setCompoundDrawables(null, tempDrawable, null, null);
+//                        } else {
+//                            txtHelp.setCompoundDrawablesWithIntrinsicBounds(null, tempDrawable,
+//                                    null, null);
+//                        }
+//                        // update the help text
+//                        txtHelp.setText(R.string.help_i2c_terminal);
+//                        // Highlight any links in the help text
+//                        Linkify.addLinks(txtHelp, Linkify.WEB_URLS);
+//
+//                        // hide any items that shouldn't be visible
+//                        txtHelpItem1.setVisibility(View.INVISIBLE);
+//                        txtHelpItem2.setVisibility(View.INVISIBLE);
+//                        txtHelpItem3.setVisibility(View.INVISIBLE);
+//                        break;
+//
+//                    case PIN_CONFIGURATION:
+//                        txtHelp.setText(R.string.help_pin_configuration);
+//
+//                        tempDrawable =
+//                                parent.getContext().getResources()
+//                                        .getDrawable(R.drawable.help_pin_configuration);
+//                        if (tempDrawable.getIntrinsicWidth() > txtHelp.getWidth()) {
+//                            // on some devices the drawable is wider than the screen,
+//                            // so resize the drawable so it has a bit of white space around it
+//                            int dif = tempDrawable.getIntrinsicWidth() - txtHelp.getWidth() + 20;
+//
+//                            tempDrawable.setBounds(0, 0, tempDrawable.getIntrinsicWidth() - dif,
+//                                    tempDrawable.getIntrinsicHeight() - dif);
+//
+//                            txtHelp.setCompoundDrawables(null, tempDrawable, null, null);
+//                        } else {
+//                            txtHelp.setCompoundDrawablesWithIntrinsicBounds(null, tempDrawable,
+//                                    null, null);
+//                        }
+//                        // hide any items that shouldn't be visible
+//                        txtHelpItem1.setVisibility(View.INVISIBLE);
+//                        txtHelpItem2.setVisibility(View.INVISIBLE);
+//                        txtHelpItem3.setVisibility(View.INVISIBLE);
+//                        break;
+//                    case PIN_FUNCTIONS:
+//                        // ADC help section
+//                        tempDrawable =
+//                                parent.getContext().getResources()
+//                                        .getDrawable(R.drawable.help_pin_functions_adc);
+//                        if (tempDrawable.getIntrinsicWidth() > txtHelp.getWidth()) {
+//                            // on some devices the drawable is wider than the screen,
+//                            // so resize the drawable so it has a bit of white space around it
+//                            int dif = tempDrawable.getIntrinsicWidth() - txtHelp.getWidth() + 20;
+//
+//                            tempDrawable.setBounds(0, 0, tempDrawable.getIntrinsicWidth() - dif,
+//                                    tempDrawable.getIntrinsicHeight() - dif);
+//
+//                            txtHelp.setCompoundDrawables(null, tempDrawable, null, null);
+//                        } else {
+//                            txtHelp.setCompoundDrawablesWithIntrinsicBounds(null, tempDrawable,
+//                                    null, null);
+//                        }
+//                        txtHelp.setText(R.string.help_pin_functions_adc);
+//
+//                        // Clock out help section
+//                        tempDrawable =
+//                                parent.getContext().getResources()
+//                                        .getDrawable(R.drawable.help_pin_functions_clock);
+//                        if (tempDrawable.getIntrinsicWidth() > txtHelpItem1.getWidth()) {
+//                            // on some devices the drawable is wider than the screen,
+//                            // so resize the drawable so it has a bit of white space around it
+//                            int dif =
+//                                    tempDrawable.getIntrinsicWidth() - txtHelpItem1.getWidth() + 20;
+//
+//                            tempDrawable.setBounds(0, 0, tempDrawable.getIntrinsicWidth() - dif,
+//                                    tempDrawable.getIntrinsicHeight() - dif);
+//
+//                            txtHelpItem1.setCompoundDrawables(null, tempDrawable, null, null);
+//                        } else {
+//                            txtHelpItem1.setCompoundDrawablesWithIntrinsicBounds(null,
+//                                    tempDrawable, null, null);
+//                        }
+//                        txtHelpItem1.setText(R.string.help_pin_functions_clock);
+//                        txtHelpItem1.setVisibility(View.VISIBLE);
+//
+//                        // DAC help section
+//                        tempDrawable =
+//                                parent.getContext().getResources()
+//                                        .getDrawable(R.drawable.help_pin_functions_dac);
+//                        if (tempDrawable.getIntrinsicWidth() > txtHelpItem2.getWidth()) {
+//                            // on some devices the drawable is wider than the screen,
+//                            // so resize the drawable so it has a bit of white space around it
+//                            int dif =
+//                                    tempDrawable.getIntrinsicWidth() - txtHelpItem2.getWidth() + 20;
+//
+//                            tempDrawable.setBounds(0, 0, tempDrawable.getIntrinsicWidth() - dif,
+//                                    tempDrawable.getIntrinsicHeight() - dif);
+//
+//                            txtHelpItem2.setCompoundDrawables(null, tempDrawable, null, null);
+//                        } else {
+//                            txtHelpItem2.setCompoundDrawablesWithIntrinsicBounds(null,
+//                                    tempDrawable, null, null);
+//                        }
+//                        txtHelpItem2.setText(R.string.help_pin_functions_dac);
+//                        txtHelpItem2.setVisibility(View.VISIBLE);
+//
+//                        // GPIO help section
+//                        tempDrawable =
+//                                parent.getContext().getResources()
+//                                        .getDrawable(R.drawable.help_pin_functions_gpio);
+//                        if (tempDrawable.getIntrinsicWidth() > txtHelpItem3.getWidth()) {
+//                            // on some devices the drawable is wider than the screen,
+//                            // so resize the drawable so it has a bit of white space around it
+//                            int dif =
+//                                    tempDrawable.getIntrinsicWidth() - txtHelpItem3.getWidth() + 20;
+//
+//                            tempDrawable.setBounds(0, 0, tempDrawable.getIntrinsicWidth() - dif,
+//                                    tempDrawable.getIntrinsicHeight() - dif);
+//
+//                            txtHelpItem3.setCompoundDrawables(null, tempDrawable, null, null);
+//                        } else {
+//                            txtHelpItem3.setCompoundDrawablesWithIntrinsicBounds(null,
+//                                    tempDrawable, null, null);
+//                        }
+//                        txtHelpItem3.setText(R.string.help_pin_functions_gpio);
+//                        txtHelpItem3.setVisibility(View.VISIBLE);
+//
+//                        break;
+//                    case SERIAL_TERMINAL:
+//                        tempDrawable =
+//                                parent.getContext().getResources()
+//                                        .getDrawable(R.drawable.help_serial_terminal);
+//                        if (tempDrawable.getIntrinsicWidth() > txtHelp.getWidth()) {
+//                            // on some devices the drawable is wider than the screen,
+//                            // so resize the drawable so it has a bit of white space around it
+//                            int dif = tempDrawable.getIntrinsicWidth() - txtHelp.getWidth() + 20;
+//
+//                            tempDrawable.setBounds(0, 0, tempDrawable.getIntrinsicWidth() - dif,
+//                                    tempDrawable.getIntrinsicHeight() - dif);
+//
+//                            txtHelp.setCompoundDrawables(null, tempDrawable, null, null);
+//                        } else {
+//                            txtHelp.setCompoundDrawablesWithIntrinsicBounds(null, tempDrawable,
+//                                    null, null);
+//                        }
+//
+//                        // update the help text
+//                        txtHelp.setText(R.string.help_serial_terminal);
+//
+//                        tempDrawable =
+//                                parent.getContext().getResources()
+//                                        .getDrawable(R.drawable.help_serial_terminal_settings);
+//                        if (tempDrawable.getIntrinsicWidth() > txtHelpItem1.getWidth()) {
+//                            // on some devices the drawable is wider than the screen,
+//                            // so resize the drawable so it has a bit of white space around it
+//                            int dif =
+//                                    tempDrawable.getIntrinsicWidth() - txtHelpItem1.getWidth() + 20;
+//
+//                            tempDrawable.setBounds(0, 0, tempDrawable.getIntrinsicWidth() - dif,
+//                                    tempDrawable.getIntrinsicHeight() - dif);
+//
+//                            txtHelpItem1.setCompoundDrawables(null, tempDrawable, null, null);
+//                        } else {
+//                            txtHelpItem1.setCompoundDrawablesWithIntrinsicBounds(null,
+//                                    tempDrawable, null, null);
+//                        }
+//
+//                        // update the help text
+//                        txtHelpItem1.setText(R.string.help_serial_terminal_settings);
+//                        txtHelpItem1.setVisibility(View.VISIBLE);
+//
+//                        // hide any items that shouldn't be visible
+//                        txtHelpItem2.setVisibility(View.INVISIBLE);
+//                        txtHelpItem3.setVisibility(View.INVISIBLE);
+//                        break;
+//
+//                    case KNOWN_ISSUES:
+//
+//                        txtHelp.setCompoundDrawablesWithIntrinsicBounds(null, null, null, null);
+//                        // update the help text
+//                        txtHelp.setText(R.string.help_known_issues);
+//
+//                        // hide any items that shouldn't be visible
+//                        txtHelpItem1.setVisibility(View.INVISIBLE);
+//                        txtHelpItem2.setVisibility(View.INVISIBLE);
+//                        txtHelpItem3.setVisibility(View.INVISIBLE);
+//                        break;
+//
+//                    default:
+//                        break;
+//                }
+//
+//            }
+//
+//            @Override
+//            public void onNothingSelected(AdapterView<?> arg0) {
+//                // TODO Auto-generated method stub
+//
+//            }
+//        });
         return rootView;
     }
 

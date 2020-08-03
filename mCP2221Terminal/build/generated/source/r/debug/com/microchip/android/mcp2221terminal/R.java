@@ -23,182 +23,3183 @@ public final class R {
     public static final int operation_array=0x7f01000b;
     public static final int output_levels=0x7f01000c;
     public static final int pec_array=0x7f01000d;
-    public static final int speed_array=0x7f01000e;
-    public static final int vref=0x7f01000f;
+    public static final int rate_array=0x7f01000e;
+    public static final int speed_array=0x7f01000f;
+    public static final int vref=0x7f010010;
+  }
+  public static final class attr {
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int barrierAllowsGoneWidgets=0x7f020000;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bottom</td><td>3</td><td></td></tr>
+     * <tr><td>end</td><td>6</td><td></td></tr>
+     * <tr><td>left</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>1</td><td></td></tr>
+     * <tr><td>start</td><td>5</td><td></td></tr>
+     * <tr><td>top</td><td>2</td><td></td></tr>
+     * </table>
+     */
+    public static final int barrierDirection=0x7f020001;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int chainUseRtl=0x7f020002;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int constraintSet=0x7f020003;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int constraint_referenced_ids=0x7f020004;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int content=0x7f020005;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>gone</td><td>0</td><td></td></tr>
+     * <tr><td>invisible</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int emptyVisibility=0x7f020006;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int layout_constrainedHeight=0x7f020007;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int layout_constrainedWidth=0x7f020008;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int layout_constraintBaseline_creator=0x7f020009;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintBaseline_toBaselineOf=0x7f02000a;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int layout_constraintBottom_creator=0x7f02000b;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintBottom_toBottomOf=0x7f02000c;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintBottom_toTopOf=0x7f02000d;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int layout_constraintCircle=0x7f02000e;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int layout_constraintCircleAngle=0x7f02000f;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_constraintCircleRadius=0x7f020010;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int layout_constraintDimensionRatio=0x7f020011;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintEnd_toEndOf=0x7f020012;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintEnd_toStartOf=0x7f020013;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_constraintGuide_begin=0x7f020014;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_constraintGuide_end=0x7f020015;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int layout_constraintGuide_percent=0x7f020016;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintHeight_default=0x7f020017;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintHeight_max=0x7f020018;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintHeight_min=0x7f020019;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int layout_constraintHeight_percent=0x7f02001a;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int layout_constraintHorizontal_bias=0x7f02001b;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintHorizontal_chainStyle=0x7f02001c;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int layout_constraintHorizontal_weight=0x7f02001d;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int layout_constraintLeft_creator=0x7f02001e;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintLeft_toLeftOf=0x7f02001f;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintLeft_toRightOf=0x7f020020;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int layout_constraintRight_creator=0x7f020021;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintRight_toLeftOf=0x7f020022;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintRight_toRightOf=0x7f020023;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintStart_toEndOf=0x7f020024;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintStart_toStartOf=0x7f020025;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int layout_constraintTop_creator=0x7f020026;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintTop_toBottomOf=0x7f020027;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintTop_toTopOf=0x7f020028;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int layout_constraintVertical_bias=0x7f020029;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintVertical_chainStyle=0x7f02002a;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int layout_constraintVertical_weight=0x7f02002b;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintWidth_default=0x7f02002c;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintWidth_max=0x7f02002d;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintWidth_min=0x7f02002e;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int layout_constraintWidth_percent=0x7f02002f;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_editor_absoluteX=0x7f020030;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_editor_absoluteY=0x7f020031;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_goneMarginBottom=0x7f020032;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_goneMarginEnd=0x7f020033;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_goneMarginLeft=0x7f020034;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_goneMarginRight=0x7f020035;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_goneMarginStart=0x7f020036;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_goneMarginTop=0x7f020037;
+    /**
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>barrier</td><td>2</td><td></td></tr>
+     * <tr><td>chains</td><td>4</td><td></td></tr>
+     * <tr><td>dimensions</td><td>8</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>groups</td><td>20</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>standard</td><td>7</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_optimizationLevel=0x7f020038;
   }
   public static final class dimen {
-    public static final int activity_horizontal_margin=0x7f020000;
-    public static final int activity_vertical_margin=0x7f020001;
-    public static final int navigation_drawer_width=0x7f020002;
+    public static final int activity_horizontal_margin=0x7f030000;
+    public static final int activity_vertical_margin=0x7f030001;
+    public static final int navigation_drawer_width=0x7f030002;
   }
   public static final class drawable {
-    public static final int drawer_shadow=0x7f030000;
-    public static final int help_i2c_terminal=0x7f030001;
-    public static final int help_pin_configuration=0x7f030002;
-    public static final int help_pin_functions_adc=0x7f030003;
-    public static final int help_pin_functions_clock=0x7f030004;
-    public static final int help_pin_functions_dac=0x7f030005;
-    public static final int help_pin_functions_gpio=0x7f030006;
-    public static final int help_serial_terminal=0x7f030007;
-    public static final int help_serial_terminal_settings=0x7f030008;
-    public static final int ic_drawer=0x7f030009;
-    public static final int ic_launcher=0x7f03000a;
-    public static final int ic_menu_send=0x7f03000b;
-    public static final int list_focused_styled=0x7f03000c;
-    public static final int perm_group_system_tools=0x7f03000d;
-    public static final int refresh=0x7f03000e;
+    public static final int drawer_shadow=0x7f040000;
+    public static final int help=0x7f040001;
+    public static final int help_i2c_terminal=0x7f040002;
+    public static final int help_pin_configuration=0x7f040003;
+    public static final int help_pin_functions_adc=0x7f040004;
+    public static final int help_pin_functions_clock=0x7f040005;
+    public static final int help_pin_functions_dac=0x7f040006;
+    public static final int help_pin_functions_gpio=0x7f040007;
+    public static final int help_serial_terminal=0x7f040008;
+    public static final int help_serial_terminal_settings=0x7f040009;
+    public static final int ic_drawer=0x7f04000a;
+    public static final int ic_launcher=0x7f04000b;
+    public static final int ic_menu_send=0x7f04000c;
+    public static final int list_focused_styled=0x7f04000d;
+    public static final int perm_group_system_tools=0x7f04000e;
+    public static final int refresh=0x7f04000f;
+    public static final int round_button=0x7f040010;
   }
   public static final class id {
-    public static final int RelativeLayout1=0x7f040000;
-    public static final int SpinnerAddrLength=0x7f040001;
-    public static final int SpinnerPEC=0x7f040002;
-    public static final int SpinnerSpeed=0x7f040003;
-    public static final int action_connection_status=0x7f040004;
-    public static final int btnAdcReadAll=0x7f040005;
-    public static final int btnClkSet=0x7f040006;
-    public static final int btnComSendData=0x7f040007;
-    public static final int btnComSettings=0x7f040008;
-    public static final int btnOpenCloseCom=0x7f040009;
-    public static final int btnReadAll=0x7f04000a;
-    public static final int btnSaveComSettings=0x7f04000b;
-    public static final int btnSetDac=0x7f04000c;
-    public static final int btnSetVrefAdc=0x7f04000d;
-    public static final int btnSetVrefDac=0x7f04000e;
-    public static final int btn_GP0=0x7f04000f;
-    public static final int btn_GP1=0x7f040010;
-    public static final int btn_GP1_ADC0=0x7f040011;
-    public static final int btn_GP2=0x7f040012;
-    public static final int btn_GP2_ADC1=0x7f040013;
-    public static final int btn_GP3=0x7f040014;
-    public static final int btn_GP3_ADC2=0x7f040015;
-    public static final int btn_configure=0x7f040016;
-    public static final int buttonSend=0x7f040017;
-    public static final int container=0x7f040018;
-    public static final int debugOutput=0x7f040019;
-    public static final int drawer_layout=0x7f04001a;
-    public static final int lblBaudRate=0x7f04001b;
-    public static final int lblComRxFormat=0x7f04001c;
-    public static final int lblDacMax=0x7f04001d;
-    public static final int lblDacMin=0x7f04001e;
-    public static final int lblDacValue=0x7f04001f;
-    public static final int lblDutyCycle=0x7f040020;
-    public static final int lblFrequency=0x7f040021;
-    public static final int lblGp0=0x7f040022;
-    public static final int lblGp1=0x7f040023;
-    public static final int lblGp2=0x7f040024;
-    public static final int lblGp3=0x7f040025;
-    public static final int lblHelpItem=0x7f040026;
-    public static final int lblListHeader=0x7f040027;
-    public static final int lblVref=0x7f040028;
-    public static final int lblVrefDac=0x7f040029;
-    public static final int listPinFunctions=0x7f04002a;
-    public static final int navigation_drawer=0x7f04002b;
-    public static final int scrollView1=0x7f04002c;
-    public static final int section_label=0x7f04002d;
-    public static final int seekBarDacValue=0x7f04002e;
-    public static final int spinnerBaudRate=0x7f04002f;
-    public static final int spinnerComOutputFormat=0x7f040030;
-    public static final int spinnerDutyCycle=0x7f040031;
-    public static final int spinnerFrequency=0x7f040032;
-    public static final int spinnerHelpItens=0x7f040033;
-    public static final int spinnerOperation=0x7f040034;
-    public static final int spinnerVrefAdc=0x7f040035;
-    public static final int spinnerVrefDac=0x7f040036;
-    public static final int spinner_gp0_functions=0x7f040037;
-    public static final int spinner_gp0_levels=0x7f040038;
-    public static final int spinner_gp1_functions=0x7f040039;
-    public static final int spinner_gp1_levels=0x7f04003a;
-    public static final int spinner_gp2_functions=0x7f04003b;
-    public static final int spinner_gp2_levels=0x7f04003c;
-    public static final int spinner_gp3_functions=0x7f04003d;
-    public static final int spinner_gp3_levels=0x7f04003e;
-    public static final int spinner_gp_read_write=0x7f04003f;
-    public static final int swLocalEcho=0x7f040040;
-    public static final int toggleGP0=0x7f040041;
-    public static final int toggleGP1=0x7f040042;
-    public static final int toggleGP2=0x7f040043;
-    public static final int toggleGP3=0x7f040044;
-    public static final int txtAdcGp1=0x7f040045;
-    public static final int txtAdcGp2=0x7f040046;
-    public static final int txtAdcGp3=0x7f040047;
-    public static final int txtAddress=0x7f040048;
-    public static final int txtComOutput=0x7f040049;
-    public static final int txtData=0x7f04004a;
-    public static final int txtHelp=0x7f04004b;
-    public static final int txtHelpItem1=0x7f04004c;
-    public static final int txtHelpItem2=0x7f04004d;
-    public static final int txtHelpItem3=0x7f04004e;
-    public static final int txtInput=0x7f04004f;
-    public static final int txtOutput=0x7f040050;
-    public static final int txtRegIndex=0x7f040051;
+    public static final int RelativeLayout1=0x7f050000;
+    public static final int SpinnerAddrLength=0x7f050001;
+    public static final int SpinnerPEC=0x7f050002;
+    public static final int SpinnerSpeed=0x7f050003;
+    public static final int action_connection_status=0x7f050004;
+    public static final int barrier=0x7f050005;
+    public static final int bottom=0x7f050006;
+    public static final int btnAdcReadAll=0x7f050007;
+    public static final int btnClkSet=0x7f050008;
+    public static final int btnComSendData=0x7f050009;
+    public static final int btnComSettings=0x7f05000a;
+    public static final int btnOpenCloseCom=0x7f05000b;
+    public static final int btnReadAll=0x7f05000c;
+    public static final int btnSaveComSettings=0x7f05000d;
+    public static final int btnSetDac=0x7f05000e;
+    public static final int btnSetVrefAdc=0x7f05000f;
+    public static final int btnSetVrefDac=0x7f050010;
+    public static final int btn_GP0=0x7f050011;
+    public static final int btn_GP1=0x7f050012;
+    public static final int btn_GP1_ADC0=0x7f050013;
+    public static final int btn_GP2=0x7f050014;
+    public static final int btn_GP2_ADC1=0x7f050015;
+    public static final int btn_GP3=0x7f050016;
+    public static final int btn_GP3_ADC2=0x7f050017;
+    public static final int btn_configure=0x7f050018;
+    public static final int buttonSend=0x7f050019;
+    public static final int chains=0x7f05001a;
+    public static final int clear_button=0x7f05001b;
+    public static final int container=0x7f05001c;
+    public static final int debugOutput=0x7f05001d;
+    public static final int debug_tv=0x7f05001e;
+    public static final int desc_inp=0x7f05001f;
+    public static final int dimensions=0x7f050020;
+    public static final int direct=0x7f050021;
+    public static final int drawer_layout=0x7f050022;
+    public static final int end=0x7f050023;
+    public static final int expand_item_list=0x7f050024;
+    public static final int gone=0x7f050025;
+    public static final int groups=0x7f050026;
+    public static final int hold=0x7f050027;
+    public static final int invisible=0x7f050028;
+    public static final int label=0x7f050029;
+    public static final int lblBaudRate=0x7f05002a;
+    public static final int lblComRxFormat=0x7f05002b;
+    public static final int lblDacMax=0x7f05002c;
+    public static final int lblDacMin=0x7f05002d;
+    public static final int lblDacValue=0x7f05002e;
+    public static final int lblDutyCycle=0x7f05002f;
+    public static final int lblFrequency=0x7f050030;
+    public static final int lblGp0=0x7f050031;
+    public static final int lblGp1=0x7f050032;
+    public static final int lblGp2=0x7f050033;
+    public static final int lblGp3=0x7f050034;
+    public static final int lblListHeader=0x7f050035;
+    public static final int lblVref=0x7f050036;
+    public static final int lblVrefDac=0x7f050037;
+    public static final int left=0x7f050038;
+    public static final int listPinFunctions=0x7f050039;
+    public static final int list_test_names=0x7f05003a;
+    public static final int navigation_drawer=0x7f05003b;
+    public static final int none=0x7f05003c;
+    public static final int packed=0x7f05003d;
+    public static final int parent=0x7f05003e;
+    public static final int percent=0x7f05003f;
+    public static final int rate_spinner=0x7f050040;
+    public static final int result1_tv=0x7f050041;
+    public static final int result2_tv=0x7f050042;
+    public static final int rh_tv=0x7f050043;
+    public static final int right=0x7f050044;
+    public static final int scrollView1=0x7f050045;
+    public static final int section_label=0x7f050046;
+    public static final int seekBarDacValue=0x7f050047;
+    public static final int spinnerBaudRate=0x7f050048;
+    public static final int spinnerComOutputFormat=0x7f050049;
+    public static final int spinnerDutyCycle=0x7f05004a;
+    public static final int spinnerFrequency=0x7f05004b;
+    public static final int spinnerOperation=0x7f05004c;
+    public static final int spinnerVrefAdc=0x7f05004d;
+    public static final int spinnerVrefDac=0x7f05004e;
+    public static final int spinner_gp0_functions=0x7f05004f;
+    public static final int spinner_gp0_levels=0x7f050050;
+    public static final int spinner_gp1_functions=0x7f050051;
+    public static final int spinner_gp1_levels=0x7f050052;
+    public static final int spinner_gp2_functions=0x7f050053;
+    public static final int spinner_gp2_levels=0x7f050054;
+    public static final int spinner_gp3_functions=0x7f050055;
+    public static final int spinner_gp3_levels=0x7f050056;
+    public static final int spinner_gp_read_write=0x7f050057;
+    public static final int spread=0x7f050058;
+    public static final int spread_inside=0x7f050059;
+    public static final int standard=0x7f05005a;
+    public static final int start=0x7f05005b;
+    public static final int start_btn=0x7f05005c;
+    public static final int stop_btn=0x7f05005d;
+    public static final int swLocalEcho=0x7f05005e;
+    public static final int temp_tv=0x7f05005f;
+    public static final int textView2=0x7f050060;
+    public static final int textView3=0x7f050061;
+    public static final int toggleGP0=0x7f050062;
+    public static final int toggleGP1=0x7f050063;
+    public static final int toggleGP2=0x7f050064;
+    public static final int toggleGP3=0x7f050065;
+    public static final int top=0x7f050066;
+    public static final int txtAdcGp1=0x7f050067;
+    public static final int txtAdcGp2=0x7f050068;
+    public static final int txtAdcGp3=0x7f050069;
+    public static final int txtAddress=0x7f05006a;
+    public static final int txtComOutput=0x7f05006b;
+    public static final int txtData=0x7f05006c;
+    public static final int txtHelp=0x7f05006d;
+    public static final int txtInput=0x7f05006e;
+    public static final int txtOutput=0x7f05006f;
+    public static final int txtRegIndex=0x7f050070;
+    public static final int wrap=0x7f050071;
   }
   public static final class layout {
-    public static final int activity_main=0x7f050000;
-    public static final int dialog_com_settings=0x7f050001;
-    public static final int fragment_help=0x7f050002;
-    public static final int fragment_main=0x7f050003;
-    public static final int fragment_navigation_drawer=0x7f050004;
-    public static final int fragment_pin_config=0x7f050005;
-    public static final int fragment_pin_functions=0x7f050006;
-    public static final int fragment_serial_terminal=0x7f050007;
-    public static final int list_group=0x7f050008;
-    public static final int list_item_adc=0x7f050009;
-    public static final int list_item_clock=0x7f05000a;
-    public static final int list_item_dac=0x7f05000b;
-    public static final int list_item_gpio=0x7f05000c;
+    public static final int activity_main=0x7f060000;
+    public static final int default_page=0x7f060001;
+    public static final int dialog_com_settings=0x7f060002;
+    public static final int expand_item=0x7f060003;
+    public static final int fragment_help=0x7f060004;
+    public static final int fragment_main=0x7f060005;
+    public static final int fragment_navigation_drawer=0x7f060006;
+    public static final int fragment_pin_config=0x7f060007;
+    public static final int fragment_pin_functions=0x7f060008;
+    public static final int fragment_retrieve=0x7f060009;
+    public static final int fragment_serial_terminal=0x7f06000a;
+    public static final int list_group=0x7f06000b;
+    public static final int list_item_adc=0x7f06000c;
+    public static final int list_item_clock=0x7f06000d;
+    public static final int list_item_dac=0x7f06000e;
+    public static final int list_item_gpio=0x7f06000f;
+    public static final int main_show=0x7f060010;
+    public static final int retrieve_list_item=0x7f060011;
   }
   public static final class menu {
-    public static final int main=0x7f060000;
+    public static final int main=0x7f070000;
   }
   public static final class string {
-    public static final int OK=0x7f070000;
-    public static final int accept=0x7f070001;
-    public static final int adcReadgp1=0x7f070002;
-    public static final int adcReadgp2=0x7f070003;
-    public static final int adcReadgp3=0x7f070004;
-    public static final int address=0x7f070005;
-    public static final int app_name=0x7f070006;
-    public static final int cancel=0x7f070007;
-    public static final int configure=0x7f070008;
-    public static final int connection_status=0x7f070009;
-    public static final int data=0x7f07000a;
-    public static final int dialog_clear_data=0x7f07000b;
-    public static final int dialog_clear_output=0x7f07000c;
-    public static final int eula_text=0x7f07000d;
-    public static final int gp0=0x7f07000e;
-    public static final int gp1=0x7f07000f;
-    public static final int gp2=0x7f070010;
-    public static final int gp3=0x7f070011;
-    public static final int help_i2c_terminal=0x7f070012;
-    public static final int help_known_issues=0x7f070013;
-    public static final int help_pin_configuration=0x7f070014;
-    public static final int help_pin_functions_adc=0x7f070015;
-    public static final int help_pin_functions_clock=0x7f070016;
-    public static final int help_pin_functions_dac=0x7f070017;
-    public static final int help_pin_functions_gpio=0x7f070018;
-    public static final int help_serial_terminal=0x7f070019;
-    public static final int help_serial_terminal_settings=0x7f07001a;
-    public static final int navigation_drawer_close=0x7f07001b;
-    public static final int navigation_drawer_open=0x7f07001c;
-    public static final int output=0x7f07001d;
-    public static final int read_all=0x7f07001e;
-    public static final int reg_index=0x7f07001f;
-    public static final int send=0x7f070020;
-    public static final int title_section1_i2c_terminal=0x7f070021;
-    public static final int title_section2_pin_config=0x7f070022;
-    public static final int title_section3_pin_functions=0x7f070023;
-    public static final int title_section4_serial_terminal=0x7f070024;
-    public static final int title_section5_help=0x7f070025;
-    public static final int toggle_high=0x7f070026;
-    public static final int toggle_low=0x7f070027;
-    public static final int write_all=0x7f070028;
+    public static final int OK=0x7f080000;
+    public static final int accept=0x7f080001;
+    public static final int adcReadgp1=0x7f080002;
+    public static final int adcReadgp2=0x7f080003;
+    public static final int adcReadgp3=0x7f080004;
+    public static final int address=0x7f080005;
+    public static final int app_name=0x7f080006;
+    public static final int cancel=0x7f080007;
+    public static final int configure=0x7f080008;
+    public static final int connection_status=0x7f080009;
+    public static final int data=0x7f08000a;
+    public static final int dialog_clear_data=0x7f08000b;
+    public static final int dialog_clear_output=0x7f08000c;
+    public static final int eula_text=0x7f08000d;
+    public static final int gp0=0x7f08000e;
+    public static final int gp1=0x7f08000f;
+    public static final int gp2=0x7f080010;
+    public static final int gp3=0x7f080011;
+    public static final int help_i2c_terminal=0x7f080012;
+    public static final int help_known_issues=0x7f080013;
+    public static final int help_pin_configuration=0x7f080014;
+    public static final int help_pin_functions_adc=0x7f080015;
+    public static final int help_pin_functions_clock=0x7f080016;
+    public static final int help_pin_functions_dac=0x7f080017;
+    public static final int help_pin_functions_gpio=0x7f080018;
+    public static final int help_serial_terminal=0x7f080019;
+    public static final int help_serial_terminal_settings=0x7f08001a;
+    public static final int help_txt=0x7f08001b;
+    public static final int navigation_drawer_close=0x7f08001c;
+    public static final int navigation_drawer_open=0x7f08001d;
+    public static final int output=0x7f08001e;
+    public static final int read_all=0x7f08001f;
+    public static final int reg_index=0x7f080020;
+    public static final int send=0x7f080021;
+    public static final int title_section1_i2c_terminal=0x7f080022;
+    public static final int title_section2_pin_config=0x7f080023;
+    public static final int title_section3_pin_functions=0x7f080024;
+    public static final int title_section4_serial_terminal=0x7f080025;
+    public static final int title_section5_help=0x7f080026;
+    public static final int toggle_high=0x7f080027;
+    public static final int toggle_low=0x7f080028;
+    public static final int write_all=0x7f080029;
   }
   public static final class style {
-    public static final int AppBaseTheme=0x7f080000;
-    public static final int AppTheme=0x7f080001;
-    public static final int CustomActionBarTheme=0x7f080002;
-    public static final int HelpTheme=0x7f080003;
-    public static final int MyActionBar=0x7f080004;
-    public static final int TitleTextStyle=0x7f080005;
+    public static final int AppBaseTheme=0x7f090000;
+    public static final int AppTheme=0x7f090001;
+    public static final int CustomActionBarTheme=0x7f090002;
+    public static final int HelpTheme=0x7f090003;
+    public static final int MyActionBar=0x7f090004;
+    public static final int TitleTextStyle=0x7f090005;
+  }
+  public static final class styleable {
+    /**
+     * Attributes that can be used with a ConstraintLayout_Layout.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_orientation android:orientation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets zyj.android.mcp2221terminal:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection zyj.android.mcp2221terminal:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl zyj.android.mcp2221terminal:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet zyj.android.mcp2221terminal:constraintSet}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids zyj.android.mcp2221terminal:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight zyj.android.mcp2221terminal:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth zyj.android.mcp2221terminal:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator zyj.android.mcp2221terminal:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf zyj.android.mcp2221terminal:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator zyj.android.mcp2221terminal:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf zyj.android.mcp2221terminal:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf zyj.android.mcp2221terminal:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle zyj.android.mcp2221terminal:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle zyj.android.mcp2221terminal:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius zyj.android.mcp2221terminal:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio zyj.android.mcp2221terminal:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf zyj.android.mcp2221terminal:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf zyj.android.mcp2221terminal:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin zyj.android.mcp2221terminal:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end zyj.android.mcp2221terminal:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent zyj.android.mcp2221terminal:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default zyj.android.mcp2221terminal:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max zyj.android.mcp2221terminal:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min zyj.android.mcp2221terminal:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent zyj.android.mcp2221terminal:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias zyj.android.mcp2221terminal:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle zyj.android.mcp2221terminal:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight zyj.android.mcp2221terminal:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator zyj.android.mcp2221terminal:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf zyj.android.mcp2221terminal:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf zyj.android.mcp2221terminal:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator zyj.android.mcp2221terminal:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf zyj.android.mcp2221terminal:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf zyj.android.mcp2221terminal:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf zyj.android.mcp2221terminal:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf zyj.android.mcp2221terminal:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator zyj.android.mcp2221terminal:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf zyj.android.mcp2221terminal:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf zyj.android.mcp2221terminal:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias zyj.android.mcp2221terminal:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle zyj.android.mcp2221terminal:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight zyj.android.mcp2221terminal:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default zyj.android.mcp2221terminal:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max zyj.android.mcp2221terminal:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min zyj.android.mcp2221terminal:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent zyj.android.mcp2221terminal:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX zyj.android.mcp2221terminal:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY zyj.android.mcp2221terminal:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom zyj.android.mcp2221terminal:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd zyj.android.mcp2221terminal:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft zyj.android.mcp2221terminal:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight zyj.android.mcp2221terminal:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart zyj.android.mcp2221terminal:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop zyj.android.mcp2221terminal:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel zyj.android.mcp2221terminal:layout_optimizationLevel}</code></td><td></td></tr>
+     * </table>
+     * @see #ConstraintLayout_Layout_android_orientation
+     * @see #ConstraintLayout_Layout_android_maxWidth
+     * @see #ConstraintLayout_Layout_android_maxHeight
+     * @see #ConstraintLayout_Layout_android_minWidth
+     * @see #ConstraintLayout_Layout_android_minHeight
+     * @see #ConstraintLayout_Layout_barrierAllowsGoneWidgets
+     * @see #ConstraintLayout_Layout_barrierDirection
+     * @see #ConstraintLayout_Layout_chainUseRtl
+     * @see #ConstraintLayout_Layout_constraintSet
+     * @see #ConstraintLayout_Layout_constraint_referenced_ids
+     * @see #ConstraintLayout_Layout_layout_constrainedHeight
+     * @see #ConstraintLayout_Layout_layout_constrainedWidth
+     * @see #ConstraintLayout_Layout_layout_constraintBaseline_creator
+     * @see #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf
+     * @see #ConstraintLayout_Layout_layout_constraintBottom_creator
+     * @see #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf
+     * @see #ConstraintLayout_Layout_layout_constraintBottom_toTopOf
+     * @see #ConstraintLayout_Layout_layout_constraintCircle
+     * @see #ConstraintLayout_Layout_layout_constraintCircleAngle
+     * @see #ConstraintLayout_Layout_layout_constraintCircleRadius
+     * @see #ConstraintLayout_Layout_layout_constraintDimensionRatio
+     * @see #ConstraintLayout_Layout_layout_constraintEnd_toEndOf
+     * @see #ConstraintLayout_Layout_layout_constraintEnd_toStartOf
+     * @see #ConstraintLayout_Layout_layout_constraintGuide_begin
+     * @see #ConstraintLayout_Layout_layout_constraintGuide_end
+     * @see #ConstraintLayout_Layout_layout_constraintGuide_percent
+     * @see #ConstraintLayout_Layout_layout_constraintHeight_default
+     * @see #ConstraintLayout_Layout_layout_constraintHeight_max
+     * @see #ConstraintLayout_Layout_layout_constraintHeight_min
+     * @see #ConstraintLayout_Layout_layout_constraintHeight_percent
+     * @see #ConstraintLayout_Layout_layout_constraintHorizontal_bias
+     * @see #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle
+     * @see #ConstraintLayout_Layout_layout_constraintHorizontal_weight
+     * @see #ConstraintLayout_Layout_layout_constraintLeft_creator
+     * @see #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf
+     * @see #ConstraintLayout_Layout_layout_constraintLeft_toRightOf
+     * @see #ConstraintLayout_Layout_layout_constraintRight_creator
+     * @see #ConstraintLayout_Layout_layout_constraintRight_toLeftOf
+     * @see #ConstraintLayout_Layout_layout_constraintRight_toRightOf
+     * @see #ConstraintLayout_Layout_layout_constraintStart_toEndOf
+     * @see #ConstraintLayout_Layout_layout_constraintStart_toStartOf
+     * @see #ConstraintLayout_Layout_layout_constraintTop_creator
+     * @see #ConstraintLayout_Layout_layout_constraintTop_toBottomOf
+     * @see #ConstraintLayout_Layout_layout_constraintTop_toTopOf
+     * @see #ConstraintLayout_Layout_layout_constraintVertical_bias
+     * @see #ConstraintLayout_Layout_layout_constraintVertical_chainStyle
+     * @see #ConstraintLayout_Layout_layout_constraintVertical_weight
+     * @see #ConstraintLayout_Layout_layout_constraintWidth_default
+     * @see #ConstraintLayout_Layout_layout_constraintWidth_max
+     * @see #ConstraintLayout_Layout_layout_constraintWidth_min
+     * @see #ConstraintLayout_Layout_layout_constraintWidth_percent
+     * @see #ConstraintLayout_Layout_layout_editor_absoluteX
+     * @see #ConstraintLayout_Layout_layout_editor_absoluteY
+     * @see #ConstraintLayout_Layout_layout_goneMarginBottom
+     * @see #ConstraintLayout_Layout_layout_goneMarginEnd
+     * @see #ConstraintLayout_Layout_layout_goneMarginLeft
+     * @see #ConstraintLayout_Layout_layout_goneMarginRight
+     * @see #ConstraintLayout_Layout_layout_goneMarginStart
+     * @see #ConstraintLayout_Layout_layout_goneMarginTop
+     * @see #ConstraintLayout_Layout_layout_optimizationLevel
+     */
+    public static final int[] ConstraintLayout_Layout={
+        0x010100c4, 0x0101011f, 0x01010120, 0x0101013f, 
+        0x01010140, 0x7f020000, 0x7f020001, 0x7f020002, 
+        0x7f020003, 0x7f020004, 0x7f020007, 0x7f020008, 
+        0x7f020009, 0x7f02000a, 0x7f02000b, 0x7f02000c, 
+        0x7f02000d, 0x7f02000e, 0x7f02000f, 0x7f020010, 
+        0x7f020011, 0x7f020012, 0x7f020013, 0x7f020014, 
+        0x7f020015, 0x7f020016, 0x7f020017, 0x7f020018, 
+        0x7f020019, 0x7f02001a, 0x7f02001b, 0x7f02001c, 
+        0x7f02001d, 0x7f02001e, 0x7f02001f, 0x7f020020, 
+        0x7f020021, 0x7f020022, 0x7f020023, 0x7f020024, 
+        0x7f020025, 0x7f020026, 0x7f020027, 0x7f020028, 
+        0x7f020029, 0x7f02002a, 0x7f02002b, 0x7f02002c, 
+        0x7f02002d, 0x7f02002e, 0x7f02002f, 0x7f020030, 
+        0x7f020031, 0x7f020032, 0x7f020033, 0x7f020034, 
+        0x7f020035, 0x7f020036, 0x7f020037, 0x7f020038
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>horizontal</td><td>0</td><td></td></tr>
+     * <tr><td>vertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:orientation
+     */
+    public static final int ConstraintLayout_Layout_android_orientation=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxWidth
+     */
+    public static final int ConstraintLayout_Layout_android_maxWidth=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxHeight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxHeight
+     */
+    public static final int ConstraintLayout_Layout_android_maxHeight=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minWidth
+     */
+    public static final int ConstraintLayout_Layout_android_minWidth=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minHeight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minHeight
+     */
+    public static final int ConstraintLayout_Layout_android_minHeight=4;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#barrierAllowsGoneWidgets}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:barrierAllowsGoneWidgets
+     */
+    public static final int ConstraintLayout_Layout_barrierAllowsGoneWidgets=5;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#barrierDirection}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bottom</td><td>3</td><td></td></tr>
+     * <tr><td>end</td><td>6</td><td></td></tr>
+     * <tr><td>left</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>1</td><td></td></tr>
+     * <tr><td>start</td><td>5</td><td></td></tr>
+     * <tr><td>top</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:barrierDirection
+     */
+    public static final int ConstraintLayout_Layout_barrierDirection=6;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#chainUseRtl}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:chainUseRtl
+     */
+    public static final int ConstraintLayout_Layout_chainUseRtl=7;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#constraintSet}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:constraintSet
+     */
+    public static final int ConstraintLayout_Layout_constraintSet=8;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#constraint_referenced_ids}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name zyj.android.mcp2221terminal:constraint_referenced_ids
+     */
+    public static final int ConstraintLayout_Layout_constraint_referenced_ids=9;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constrainedHeight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constrainedHeight
+     */
+    public static final int ConstraintLayout_Layout_layout_constrainedHeight=10;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constrainedWidth}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constrainedWidth
+     */
+    public static final int ConstraintLayout_Layout_layout_constrainedWidth=11;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintBaseline_creator}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintBaseline_creator
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=12;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintBaseline_toBaselineOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintBaseline_toBaselineOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=13;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintBottom_creator}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintBottom_creator
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=14;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintBottom_toBottomOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintBottom_toBottomOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=15;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintBottom_toTopOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintBottom_toTopOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=16;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintCircle}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintCircle
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintCircle=17;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintCircleAngle}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintCircleAngle
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintCircleAngle=18;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintCircleRadius}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintCircleRadius
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintCircleRadius=19;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintDimensionRatio}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintDimensionRatio
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=20;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintEnd_toEndOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintEnd_toEndOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=21;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintEnd_toStartOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintEnd_toStartOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=22;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintGuide_begin}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintGuide_begin
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=23;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintGuide_end}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintGuide_end
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintGuide_end=24;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintGuide_percent}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintGuide_percent
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=25;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintHeight_default}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintHeight_default
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHeight_default=26;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintHeight_max}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintHeight_max
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHeight_max=27;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintHeight_min}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintHeight_min
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHeight_min=28;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintHeight_percent}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintHeight_percent
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHeight_percent=29;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintHorizontal_bias}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintHorizontal_bias
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=30;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintHorizontal_chainStyle}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintHorizontal_chainStyle
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=31;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintHorizontal_weight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintHorizontal_weight
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=32;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintLeft_creator}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintLeft_creator
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=33;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintLeft_toLeftOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintLeft_toLeftOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=34;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintLeft_toRightOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintLeft_toRightOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=35;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintRight_creator}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintRight_creator
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintRight_creator=36;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintRight_toLeftOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintRight_toLeftOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=37;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintRight_toRightOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintRight_toRightOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=38;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintStart_toEndOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintStart_toEndOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=39;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintStart_toStartOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintStart_toStartOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=40;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintTop_creator}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintTop_creator
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintTop_creator=41;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintTop_toBottomOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintTop_toBottomOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=42;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintTop_toTopOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintTop_toTopOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=43;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintVertical_bias}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintVertical_bias
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=44;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintVertical_chainStyle}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintVertical_chainStyle
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=45;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintVertical_weight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintVertical_weight
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=46;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintWidth_default}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintWidth_default
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintWidth_default=47;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintWidth_max}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintWidth_max
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintWidth_max=48;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintWidth_min}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintWidth_min
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintWidth_min=49;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintWidth_percent}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintWidth_percent
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintWidth_percent=50;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_editor_absoluteX}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_editor_absoluteX
+     */
+    public static final int ConstraintLayout_Layout_layout_editor_absoluteX=51;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_editor_absoluteY}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_editor_absoluteY
+     */
+    public static final int ConstraintLayout_Layout_layout_editor_absoluteY=52;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_goneMarginBottom}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_goneMarginBottom
+     */
+    public static final int ConstraintLayout_Layout_layout_goneMarginBottom=53;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_goneMarginEnd}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_goneMarginEnd
+     */
+    public static final int ConstraintLayout_Layout_layout_goneMarginEnd=54;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_goneMarginLeft}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_goneMarginLeft
+     */
+    public static final int ConstraintLayout_Layout_layout_goneMarginLeft=55;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_goneMarginRight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_goneMarginRight
+     */
+    public static final int ConstraintLayout_Layout_layout_goneMarginRight=56;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_goneMarginStart}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_goneMarginStart
+     */
+    public static final int ConstraintLayout_Layout_layout_goneMarginStart=57;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_goneMarginTop}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_goneMarginTop
+     */
+    public static final int ConstraintLayout_Layout_layout_goneMarginTop=58;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_optimizationLevel}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>barrier</td><td>2</td><td></td></tr>
+     * <tr><td>chains</td><td>4</td><td></td></tr>
+     * <tr><td>dimensions</td><td>8</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>groups</td><td>20</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>standard</td><td>7</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_optimizationLevel
+     */
+    public static final int ConstraintLayout_Layout_layout_optimizationLevel=59;
+    /**
+     * Attributes that can be used with a ConstraintLayout_placeholder.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_content zyj.android.mcp2221terminal:content}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility zyj.android.mcp2221terminal:emptyVisibility}</code></td><td></td></tr>
+     * </table>
+     * @see #ConstraintLayout_placeholder_content
+     * @see #ConstraintLayout_placeholder_emptyVisibility
+     */
+    public static final int[] ConstraintLayout_placeholder={
+        0x7f020005, 0x7f020006
+      };
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#content}
+     * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:content
+     */
+    public static final int ConstraintLayout_placeholder_content=0;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#emptyVisibility}
+     * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>gone</td><td>0</td><td></td></tr>
+     * <tr><td>invisible</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:emptyVisibility
+     */
+    public static final int ConstraintLayout_placeholder_emptyVisibility=1;
+    /**
+     * Attributes that can be used with a ConstraintSet.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_orientation android:orientation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_id android:id}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_visibility android:visibility}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_width android:layout_width}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_height android:layout_height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_marginLeft android:layout_marginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_marginTop android:layout_marginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_marginRight android:layout_marginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_marginBottom android:layout_marginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_maxWidth android:maxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_maxHeight android:maxHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_minWidth android:minWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_minHeight android:minHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_alpha android:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_transformPivotX android:transformPivotX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_transformPivotY android:transformPivotY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_translationX android:translationX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_translationY android:translationY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_scaleX android:scaleX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_scaleY android:scaleY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_rotation android:rotation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_rotationX android:rotationX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_rotationY android:rotationY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_marginStart android:layout_marginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierAllowsGoneWidgets zyj.android.mcp2221terminal:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierDirection zyj.android.mcp2221terminal:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_chainUseRtl zyj.android.mcp2221terminal:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_constraint_referenced_ids zyj.android.mcp2221terminal:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight zyj.android.mcp2221terminal:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth zyj.android.mcp2221terminal:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator zyj.android.mcp2221terminal:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf zyj.android.mcp2221terminal:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator zyj.android.mcp2221terminal:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf zyj.android.mcp2221terminal:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf zyj.android.mcp2221terminal:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle zyj.android.mcp2221terminal:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle zyj.android.mcp2221terminal:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius zyj.android.mcp2221terminal:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio zyj.android.mcp2221terminal:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf zyj.android.mcp2221terminal:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf zyj.android.mcp2221terminal:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin zyj.android.mcp2221terminal:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end zyj.android.mcp2221terminal:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent zyj.android.mcp2221terminal:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default zyj.android.mcp2221terminal:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max zyj.android.mcp2221terminal:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min zyj.android.mcp2221terminal:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent zyj.android.mcp2221terminal:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias zyj.android.mcp2221terminal:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle zyj.android.mcp2221terminal:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight zyj.android.mcp2221terminal:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator zyj.android.mcp2221terminal:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf zyj.android.mcp2221terminal:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf zyj.android.mcp2221terminal:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator zyj.android.mcp2221terminal:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf zyj.android.mcp2221terminal:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf zyj.android.mcp2221terminal:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf zyj.android.mcp2221terminal:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf zyj.android.mcp2221terminal:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator zyj.android.mcp2221terminal:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf zyj.android.mcp2221terminal:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf zyj.android.mcp2221terminal:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias zyj.android.mcp2221terminal:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle zyj.android.mcp2221terminal:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight zyj.android.mcp2221terminal:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default zyj.android.mcp2221terminal:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max zyj.android.mcp2221terminal:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min zyj.android.mcp2221terminal:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent zyj.android.mcp2221terminal:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX zyj.android.mcp2221terminal:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY zyj.android.mcp2221terminal:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom zyj.android.mcp2221terminal:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd zyj.android.mcp2221terminal:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft zyj.android.mcp2221terminal:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight zyj.android.mcp2221terminal:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart zyj.android.mcp2221terminal:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop zyj.android.mcp2221terminal:layout_goneMarginTop}</code></td><td></td></tr>
+     * </table>
+     * @see #ConstraintSet_android_orientation
+     * @see #ConstraintSet_android_id
+     * @see #ConstraintSet_android_visibility
+     * @see #ConstraintSet_android_layout_width
+     * @see #ConstraintSet_android_layout_height
+     * @see #ConstraintSet_android_layout_marginLeft
+     * @see #ConstraintSet_android_layout_marginTop
+     * @see #ConstraintSet_android_layout_marginRight
+     * @see #ConstraintSet_android_layout_marginBottom
+     * @see #ConstraintSet_android_maxWidth
+     * @see #ConstraintSet_android_maxHeight
+     * @see #ConstraintSet_android_minWidth
+     * @see #ConstraintSet_android_minHeight
+     * @see #ConstraintSet_android_alpha
+     * @see #ConstraintSet_android_transformPivotX
+     * @see #ConstraintSet_android_transformPivotY
+     * @see #ConstraintSet_android_translationX
+     * @see #ConstraintSet_android_translationY
+     * @see #ConstraintSet_android_scaleX
+     * @see #ConstraintSet_android_scaleY
+     * @see #ConstraintSet_android_rotation
+     * @see #ConstraintSet_android_rotationX
+     * @see #ConstraintSet_android_rotationY
+     * @see #ConstraintSet_android_layout_marginStart
+     * @see #ConstraintSet_android_layout_marginEnd
+     * @see #ConstraintSet_android_translationZ
+     * @see #ConstraintSet_android_elevation
+     * @see #ConstraintSet_barrierAllowsGoneWidgets
+     * @see #ConstraintSet_barrierDirection
+     * @see #ConstraintSet_chainUseRtl
+     * @see #ConstraintSet_constraint_referenced_ids
+     * @see #ConstraintSet_layout_constrainedHeight
+     * @see #ConstraintSet_layout_constrainedWidth
+     * @see #ConstraintSet_layout_constraintBaseline_creator
+     * @see #ConstraintSet_layout_constraintBaseline_toBaselineOf
+     * @see #ConstraintSet_layout_constraintBottom_creator
+     * @see #ConstraintSet_layout_constraintBottom_toBottomOf
+     * @see #ConstraintSet_layout_constraintBottom_toTopOf
+     * @see #ConstraintSet_layout_constraintCircle
+     * @see #ConstraintSet_layout_constraintCircleAngle
+     * @see #ConstraintSet_layout_constraintCircleRadius
+     * @see #ConstraintSet_layout_constraintDimensionRatio
+     * @see #ConstraintSet_layout_constraintEnd_toEndOf
+     * @see #ConstraintSet_layout_constraintEnd_toStartOf
+     * @see #ConstraintSet_layout_constraintGuide_begin
+     * @see #ConstraintSet_layout_constraintGuide_end
+     * @see #ConstraintSet_layout_constraintGuide_percent
+     * @see #ConstraintSet_layout_constraintHeight_default
+     * @see #ConstraintSet_layout_constraintHeight_max
+     * @see #ConstraintSet_layout_constraintHeight_min
+     * @see #ConstraintSet_layout_constraintHeight_percent
+     * @see #ConstraintSet_layout_constraintHorizontal_bias
+     * @see #ConstraintSet_layout_constraintHorizontal_chainStyle
+     * @see #ConstraintSet_layout_constraintHorizontal_weight
+     * @see #ConstraintSet_layout_constraintLeft_creator
+     * @see #ConstraintSet_layout_constraintLeft_toLeftOf
+     * @see #ConstraintSet_layout_constraintLeft_toRightOf
+     * @see #ConstraintSet_layout_constraintRight_creator
+     * @see #ConstraintSet_layout_constraintRight_toLeftOf
+     * @see #ConstraintSet_layout_constraintRight_toRightOf
+     * @see #ConstraintSet_layout_constraintStart_toEndOf
+     * @see #ConstraintSet_layout_constraintStart_toStartOf
+     * @see #ConstraintSet_layout_constraintTop_creator
+     * @see #ConstraintSet_layout_constraintTop_toBottomOf
+     * @see #ConstraintSet_layout_constraintTop_toTopOf
+     * @see #ConstraintSet_layout_constraintVertical_bias
+     * @see #ConstraintSet_layout_constraintVertical_chainStyle
+     * @see #ConstraintSet_layout_constraintVertical_weight
+     * @see #ConstraintSet_layout_constraintWidth_default
+     * @see #ConstraintSet_layout_constraintWidth_max
+     * @see #ConstraintSet_layout_constraintWidth_min
+     * @see #ConstraintSet_layout_constraintWidth_percent
+     * @see #ConstraintSet_layout_editor_absoluteX
+     * @see #ConstraintSet_layout_editor_absoluteY
+     * @see #ConstraintSet_layout_goneMarginBottom
+     * @see #ConstraintSet_layout_goneMarginEnd
+     * @see #ConstraintSet_layout_goneMarginLeft
+     * @see #ConstraintSet_layout_goneMarginRight
+     * @see #ConstraintSet_layout_goneMarginStart
+     * @see #ConstraintSet_layout_goneMarginTop
+     */
+    public static final int[] ConstraintSet={
+        0x010100c4, 0x010100d0, 0x010100dc, 0x010100f4, 
+        0x010100f5, 0x010100f7, 0x010100f8, 0x010100f9, 
+        0x010100fa, 0x0101011f, 0x01010120, 0x0101013f, 
+        0x01010140, 0x0101031f, 0x01010320, 0x01010321, 
+        0x01010322, 0x01010323, 0x01010324, 0x01010325, 
+        0x01010326, 0x01010327, 0x01010328, 0x010103b5, 
+        0x010103b6, 0x010103fa, 0x01010440, 0x7f020000, 
+        0x7f020001, 0x7f020002, 0x7f020004, 0x7f020007, 
+        0x7f020008, 0x7f020009, 0x7f02000a, 0x7f02000b, 
+        0x7f02000c, 0x7f02000d, 0x7f02000e, 0x7f02000f, 
+        0x7f020010, 0x7f020011, 0x7f020012, 0x7f020013, 
+        0x7f020014, 0x7f020015, 0x7f020016, 0x7f020017, 
+        0x7f020018, 0x7f020019, 0x7f02001a, 0x7f02001b, 
+        0x7f02001c, 0x7f02001d, 0x7f02001e, 0x7f02001f, 
+        0x7f020020, 0x7f020021, 0x7f020022, 0x7f020023, 
+        0x7f020024, 0x7f020025, 0x7f020026, 0x7f020027, 
+        0x7f020028, 0x7f020029, 0x7f02002a, 0x7f02002b, 
+        0x7f02002c, 0x7f02002d, 0x7f02002e, 0x7f02002f, 
+        0x7f020030, 0x7f020031, 0x7f020032, 0x7f020033, 
+        0x7f020034, 0x7f020035, 0x7f020036, 0x7f020037
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>horizontal</td><td>0</td><td></td></tr>
+     * <tr><td>vertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:orientation
+     */
+    public static final int ConstraintSet_android_orientation=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:id
+     */
+    public static final int ConstraintSet_android_id=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#visibility}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>gone</td><td>2</td><td></td></tr>
+     * <tr><td>invisible</td><td>1</td><td></td></tr>
+     * <tr><td>visible</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:visibility
+     */
+    public static final int ConstraintSet_android_visibility=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_width}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
+     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:layout_width
+     */
+    public static final int ConstraintSet_android_layout_width=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_height}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
+     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:layout_height
+     */
+    public static final int ConstraintSet_android_layout_height=4;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginLeft}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginLeft
+     */
+    public static final int ConstraintSet_android_layout_marginLeft=5;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginTop}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginTop
+     */
+    public static final int ConstraintSet_android_layout_marginTop=6;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginRight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginRight
+     */
+    public static final int ConstraintSet_android_layout_marginRight=7;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginBottom}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginBottom
+     */
+    public static final int ConstraintSet_android_layout_marginBottom=8;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxWidth
+     */
+    public static final int ConstraintSet_android_maxWidth=9;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxHeight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxHeight
+     */
+    public static final int ConstraintSet_android_maxHeight=10;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minWidth
+     */
+    public static final int ConstraintSet_android_minWidth=11;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minHeight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minHeight
+     */
+    public static final int ConstraintSet_android_minHeight=12;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#alpha}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:alpha
+     */
+    public static final int ConstraintSet_android_alpha=13;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#transformPivotX}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:transformPivotX
+     */
+    public static final int ConstraintSet_android_transformPivotX=14;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#transformPivotY}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:transformPivotY
+     */
+    public static final int ConstraintSet_android_transformPivotY=15;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationX}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationX
+     */
+    public static final int ConstraintSet_android_translationX=16;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationY}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationY
+     */
+    public static final int ConstraintSet_android_translationY=17;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#scaleX}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:scaleX
+     */
+    public static final int ConstraintSet_android_scaleX=18;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#scaleY}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:scaleY
+     */
+    public static final int ConstraintSet_android_scaleY=19;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotation}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotation
+     */
+    public static final int ConstraintSet_android_rotation=20;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotationX}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotationX
+     */
+    public static final int ConstraintSet_android_rotationX=21;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotationY}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotationY
+     */
+    public static final int ConstraintSet_android_rotationY=22;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginStart}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginStart
+     */
+    public static final int ConstraintSet_android_layout_marginStart=23;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginEnd}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginEnd
+     */
+    public static final int ConstraintSet_android_layout_marginEnd=24;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationZ}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationZ
+     */
+    public static final int ConstraintSet_android_translationZ=25;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#elevation}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:elevation
+     */
+    public static final int ConstraintSet_android_elevation=26;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#barrierAllowsGoneWidgets}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:barrierAllowsGoneWidgets
+     */
+    public static final int ConstraintSet_barrierAllowsGoneWidgets=27;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#barrierDirection}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bottom</td><td>3</td><td></td></tr>
+     * <tr><td>end</td><td>6</td><td></td></tr>
+     * <tr><td>left</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>1</td><td></td></tr>
+     * <tr><td>start</td><td>5</td><td></td></tr>
+     * <tr><td>top</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:barrierDirection
+     */
+    public static final int ConstraintSet_barrierDirection=28;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#chainUseRtl}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:chainUseRtl
+     */
+    public static final int ConstraintSet_chainUseRtl=29;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#constraint_referenced_ids}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name zyj.android.mcp2221terminal:constraint_referenced_ids
+     */
+    public static final int ConstraintSet_constraint_referenced_ids=30;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constrainedHeight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constrainedHeight
+     */
+    public static final int ConstraintSet_layout_constrainedHeight=31;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constrainedWidth}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constrainedWidth
+     */
+    public static final int ConstraintSet_layout_constrainedWidth=32;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintBaseline_creator}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintBaseline_creator
+     */
+    public static final int ConstraintSet_layout_constraintBaseline_creator=33;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintBaseline_toBaselineOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintBaseline_toBaselineOf
+     */
+    public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=34;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintBottom_creator}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintBottom_creator
+     */
+    public static final int ConstraintSet_layout_constraintBottom_creator=35;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintBottom_toBottomOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintBottom_toBottomOf
+     */
+    public static final int ConstraintSet_layout_constraintBottom_toBottomOf=36;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintBottom_toTopOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintBottom_toTopOf
+     */
+    public static final int ConstraintSet_layout_constraintBottom_toTopOf=37;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintCircle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintCircle
+     */
+    public static final int ConstraintSet_layout_constraintCircle=38;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintCircleAngle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintCircleAngle
+     */
+    public static final int ConstraintSet_layout_constraintCircleAngle=39;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintCircleRadius}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintCircleRadius
+     */
+    public static final int ConstraintSet_layout_constraintCircleRadius=40;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintDimensionRatio}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintDimensionRatio
+     */
+    public static final int ConstraintSet_layout_constraintDimensionRatio=41;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintEnd_toEndOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintEnd_toEndOf
+     */
+    public static final int ConstraintSet_layout_constraintEnd_toEndOf=42;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintEnd_toStartOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintEnd_toStartOf
+     */
+    public static final int ConstraintSet_layout_constraintEnd_toStartOf=43;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintGuide_begin}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintGuide_begin
+     */
+    public static final int ConstraintSet_layout_constraintGuide_begin=44;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintGuide_end}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintGuide_end
+     */
+    public static final int ConstraintSet_layout_constraintGuide_end=45;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintGuide_percent}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintGuide_percent
+     */
+    public static final int ConstraintSet_layout_constraintGuide_percent=46;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintHeight_default}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintHeight_default
+     */
+    public static final int ConstraintSet_layout_constraintHeight_default=47;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintHeight_max}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintHeight_max
+     */
+    public static final int ConstraintSet_layout_constraintHeight_max=48;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintHeight_min}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintHeight_min
+     */
+    public static final int ConstraintSet_layout_constraintHeight_min=49;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintHeight_percent}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintHeight_percent
+     */
+    public static final int ConstraintSet_layout_constraintHeight_percent=50;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintHorizontal_bias}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintHorizontal_bias
+     */
+    public static final int ConstraintSet_layout_constraintHorizontal_bias=51;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintHorizontal_chainStyle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintHorizontal_chainStyle
+     */
+    public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=52;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintHorizontal_weight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintHorizontal_weight
+     */
+    public static final int ConstraintSet_layout_constraintHorizontal_weight=53;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintLeft_creator}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintLeft_creator
+     */
+    public static final int ConstraintSet_layout_constraintLeft_creator=54;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintLeft_toLeftOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintLeft_toLeftOf
+     */
+    public static final int ConstraintSet_layout_constraintLeft_toLeftOf=55;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintLeft_toRightOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintLeft_toRightOf
+     */
+    public static final int ConstraintSet_layout_constraintLeft_toRightOf=56;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintRight_creator}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintRight_creator
+     */
+    public static final int ConstraintSet_layout_constraintRight_creator=57;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintRight_toLeftOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintRight_toLeftOf
+     */
+    public static final int ConstraintSet_layout_constraintRight_toLeftOf=58;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintRight_toRightOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintRight_toRightOf
+     */
+    public static final int ConstraintSet_layout_constraintRight_toRightOf=59;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintStart_toEndOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintStart_toEndOf
+     */
+    public static final int ConstraintSet_layout_constraintStart_toEndOf=60;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintStart_toStartOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintStart_toStartOf
+     */
+    public static final int ConstraintSet_layout_constraintStart_toStartOf=61;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintTop_creator}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintTop_creator
+     */
+    public static final int ConstraintSet_layout_constraintTop_creator=62;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintTop_toBottomOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintTop_toBottomOf
+     */
+    public static final int ConstraintSet_layout_constraintTop_toBottomOf=63;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintTop_toTopOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintTop_toTopOf
+     */
+    public static final int ConstraintSet_layout_constraintTop_toTopOf=64;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintVertical_bias}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintVertical_bias
+     */
+    public static final int ConstraintSet_layout_constraintVertical_bias=65;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintVertical_chainStyle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintVertical_chainStyle
+     */
+    public static final int ConstraintSet_layout_constraintVertical_chainStyle=66;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintVertical_weight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintVertical_weight
+     */
+    public static final int ConstraintSet_layout_constraintVertical_weight=67;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintWidth_default}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintWidth_default
+     */
+    public static final int ConstraintSet_layout_constraintWidth_default=68;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintWidth_max}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintWidth_max
+     */
+    public static final int ConstraintSet_layout_constraintWidth_max=69;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintWidth_min}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintWidth_min
+     */
+    public static final int ConstraintSet_layout_constraintWidth_min=70;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_constraintWidth_percent}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_constraintWidth_percent
+     */
+    public static final int ConstraintSet_layout_constraintWidth_percent=71;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_editor_absoluteX}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_editor_absoluteX
+     */
+    public static final int ConstraintSet_layout_editor_absoluteX=72;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_editor_absoluteY}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_editor_absoluteY
+     */
+    public static final int ConstraintSet_layout_editor_absoluteY=73;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_goneMarginBottom}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_goneMarginBottom
+     */
+    public static final int ConstraintSet_layout_goneMarginBottom=74;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_goneMarginEnd}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_goneMarginEnd
+     */
+    public static final int ConstraintSet_layout_goneMarginEnd=75;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_goneMarginLeft}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_goneMarginLeft
+     */
+    public static final int ConstraintSet_layout_goneMarginLeft=76;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_goneMarginRight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_goneMarginRight
+     */
+    public static final int ConstraintSet_layout_goneMarginRight=77;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_goneMarginStart}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_goneMarginStart
+     */
+    public static final int ConstraintSet_layout_goneMarginStart=78;
+    /**
+     * <p>This symbol is the offset where the {@link zyj.android.mcp2221terminal.R.attr#layout_goneMarginTop}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name zyj.android.mcp2221terminal:layout_goneMarginTop
+     */
+    public static final int ConstraintSet_layout_goneMarginTop=79;
+    /**
+     * Attributes that can be used with a LinearConstraintLayout.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #LinearConstraintLayout_android_orientation android:orientation}</code></td><td></td></tr>
+     * </table>
+     * @see #LinearConstraintLayout_android_orientation
+     */
+    public static final int[] LinearConstraintLayout={
+        0x010100c4
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * attribute's value can be found in the {@link #LinearConstraintLayout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>horizontal</td><td>0</td><td></td></tr>
+     * <tr><td>vertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:orientation
+     */
+    public static final int LinearConstraintLayout_android_orientation=0;
   }
 }

@@ -1878,7 +1878,7 @@ public class Mcp2221Comm {
                 mTxData.put(11, valueToSet);
                 break;
             case 3:
-                // The next byte (index 15) will be the value used to set GP3’s pin value
+                // The next byte (index 15) will be the value used to set gp3s pin value
                 mTxData.put(14, (byte) 1);
                 mTxData.put(15, valueToSet);
                 break;
@@ -1932,7 +1932,7 @@ public class Mcp2221Comm {
         // The next byte (index 11) will be the value used to set GP2 output
         mTxData.put(10, (byte) 1);
         mTxData.put(11, valuesToSet.get(2));
-        // The next byte (index 15) will be the value used to set GP3’s pin value
+        // The next byte (index 15) will be the value used to set GP3s pin value
         mTxData.put(14, (byte) 1);
         mTxData.put(15, valuesToSet.get(3));
 

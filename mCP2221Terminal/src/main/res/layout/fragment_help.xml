@@ -5,20 +5,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <TextView
-        android:id="@+id/lblHelpItem"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Select Help Item"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <Spinner
-        android:id="@+id/spinnerHelpItens"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:entries="@array/helpItems" />
-
     <ScrollView
         android:id="@+id/scrollView1"
         android:layout_width="match_parent"
@@ -29,72 +15,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
 
-            <EditText
+            <TextView
                 android:id="@+id/txtHelp"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:fitsSystemWindows="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
                 android:focusable="false"
                 android:focusableInTouchMode="false"
-                android:inputType="textMultiLine|textNoSuggestions"
                 android:linksClickable="true"
                 android:scrollbarAlwaysDrawVerticalTrack="true"
                 android:scrollbars="vertical"
                 android:textSize="15sp" />
 
-            <!--
-        the following items are only used for the pin functions help page, \r
-        each containing the picture and string for each function entry
-            -->
 
-            <EditText
-                android:id="@+id/txtHelpItem1"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/txtHelp"
-                android:ems="10"
-                android:fitsSystemWindows="true"
-                android:focusable="false"
-                android:focusableInTouchMode="false"
-                android:inputType="textMultiLine|textNoSuggestions"
-                android:linksClickable="true"
-                android:scrollbarAlwaysDrawVerticalTrack="true"
-                android:scrollbars="vertical"
-                android:textSize="15sp"
-                android:visibility="invisible" />
-
-            <EditText
-                android:id="@+id/txtHelpItem2"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/txtHelpItem1"
-                android:ems="10"
-                android:fitsSystemWindows="true"
-                android:focusable="false"
-                android:focusableInTouchMode="false"
-                android:inputType="textMultiLine|textNoSuggestions"
-                android:linksClickable="true"
-                android:scrollbarAlwaysDrawVerticalTrack="true"
-                android:scrollbars="vertical"
-                android:textSize="15sp"
-                android:visibility="invisible" />
-
-            <EditText
-                android:id="@+id/txtHelpItem3"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/txtHelpItem2"
-                android:ems="10"
-                android:fitsSystemWindows="true"
-                android:focusable="false"
-                android:focusableInTouchMode="false"
-                android:inputType="textMultiLine|textNoSuggestions"
-                android:linksClickable="true"
-                android:scrollbarAlwaysDrawVerticalTrack="true"
-                android:scrollbars="vertical"
-                android:textSize="15sp"
-                android:visibility="invisible" />
         </RelativeLayout>
     </ScrollView>
 

@@ -1,14 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:2:1-37:12
+ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:2:1-35:12
 MERGED from [:mcp2221Comm] C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mcp2221Comm\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:microchipUsb] C:\Users\Lashgari\StudioProjects\mcp-2221-sample\microchipUsb\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:2:1-37:12
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Lashgari\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\381291267b070b955db42cdf66c1e652\AndroidManifest.xml:14:4-17:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Lashgari\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\b24f02738cae6d6b1b0079324e814763\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:2:1-35:12
 	package
 		ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:3:5-52
 		INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml
@@ -23,30 +25,38 @@ INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\s
 		ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:4:5-28
 		INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml
-uses-feature#android.hardware.usb.host
-ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:7:5-62
-	android:name
-		ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:7:19-59
 uses-sdk
-ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:9:5-11:41
-INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:9:5-11:41
-INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:9:5-11:41
+ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:7:5-9:41
 MERGED from [:mcp2221Comm] C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mcp2221Comm\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:mcp2221Comm] C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mcp2221Comm\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:microchipUsb] C:\Users\Lashgari\StudioProjects\mcp-2221-sample\microchipUsb\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:microchipUsb] C:\Users\Lashgari\StudioProjects\mcp-2221-sample\microchipUsb\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:9:5-11:41
-INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:9:5-11:41
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Lashgari\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\381291267b070b955db42cdf66c1e652\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Lashgari\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\381291267b070b955db42cdf66c1e652\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Lashgari\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\b24f02738cae6d6b1b0079324e814763\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Lashgari\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\b24f02738cae6d6b1b0079324e814763\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
-		ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:11:9-38
+		ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:9:9-38
 		INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:8:9-35
 		INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml
+uses-feature#android.hardware.usb.host
+ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:11:5-62
+	android:name
+		ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:11:19-59
 application
-ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:13:5-35:19
+ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:13:5-33:19
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Lashgari\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\381291267b070b955db42cdf66c1e652\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Lashgari\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\381291267b070b955db42cdf66c1e652\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Lashgari\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\b24f02738cae6d6b1b0079324e814763\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Lashgari\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\b24f02738cae6d6b1b0079324e814763\AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:17:9-41
 	android:configChanges
@@ -57,23 +67,29 @@ ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\
 		ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:14:9-35
 	android:theme
 		ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:18:9-40
+activity#com.microchip.android.mcp2221terminal.ResulShowActivity
+ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:19:9-64
+	android:name
+		ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:19:19-52
 activity#com.microchip.android.mcp2221terminal.MainActivity
-ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:21:9-31:20
+ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:21:9-32:20
+	android:screenOrientation
+		ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:25:13-49
 	android:label
 		ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:24:13-45
 	android:configChanges
 		ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:23:13-74
 	android:theme
-		ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:25:13-56
+		ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:26:13-56
 	android:name
 		ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:22:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:26:13-30:29
+ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:27:17-69
+ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:27:25-66
+		ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:29:17-77
+ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:29:27-74
+		ADDED from C:\Users\Lashgari\StudioProjects\mcp-2221-sample\mCP2221Terminal\src\main\AndroidManifest.xml:30:27-74

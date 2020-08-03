@@ -58,11 +58,23 @@ public final class Output {
      *            (int) - the color of the string
      * @return (SpannableStringBuilder) - the text with the desired color and formatting
      */
-    public static SpannableStringBuilder formatText(final ByteBuffer inputBuffer, final int color) {
+    public static SpannableStringBuilder formatText(final ByteBuffer inputBuffer, final int color,String address) {
         sOutText.clear();
         for (int i = 0; i < inputBuffer.limit(); i++) {
-            sOutText.append(String.format("%02X", inputBuffer.get(i)) + " ");
+            sOutText.append(String.format("%02X", inputBuffer.get(i)));
         }
+        String s = sOutText.toString();
+        sOutText.clear();
+        if(address.equals("90"))
+        sOutText.append(String.format("%.2f",Integer.parseInt(s,16)* 0.0078125));
+        else{
+            double a = Integer.parseInt(s,16);
+            a /= 265;
+            a /= 265;
+            a *= 100;
+            sOutText.append(String.format("%.2f",a));
+        }
+//            sOutText.append(String.format("%.2f",(float)((Integer.parseInt(s,16)/265.00)/256)*100));
         // if we only receive one hex value then don't append a new line just add a blank space
         if (inputBuffer.limit() > 1) {
             sOutText.append("\n");
@@ -93,7 +105,7 @@ public final class Output {
     /**
      * Sets the color for the input text and makes it uppercase.
      * 
-     * @param inputBuffer
+     * @param inputByte
      *            (ByteBuffer) - array of hex values
      * @param color
      *            (int) - the color of the string

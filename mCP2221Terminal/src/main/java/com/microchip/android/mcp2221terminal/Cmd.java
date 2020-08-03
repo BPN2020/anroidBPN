@@ -59,17 +59,17 @@ public final class Cmd {
      * 
      * @return (byte) - the slave address value
      */
-    public static byte getAddress() {
+    public static byte getAddress(String in) {
         byte address;
-        EditText txtAddress = (EditText) sActivity.findViewById(R.id.txtAddress);
-        Spinner spinnerAddrLength = (Spinner) sActivity.findViewById(R.id.SpinnerAddrLength);
+        //EditText txtAddress = (EditText) sActivity.findViewById(R.id.txtAddress);
+        //Spinner spinnerAddrLength = (Spinner) sActivity.findViewById(R.id.SpinnerAddrLength);
 
-        address = (byte) Integer.parseInt(txtAddress.getText().toString(), 16);
+        address = (byte) Integer.parseInt(in, 16);
 
         // 7 bit address needs to be shifted left by 1 byte
-        if (spinnerAddrLength.getSelectedItem().toString().contains("7")) {
-            address <<= 1;
-        }
+//        if (spinnerAddrLength.getSelectedItem().toString().contains("7")) {
+//            address <<= 1;
+//        }
 
         return address;
     }
@@ -80,15 +80,15 @@ public final class Cmd {
      * 
      * @return (ByteBuffer) - data bytes that will be used in the MCP2221 read/write methods.
      */
-    public static ByteBuffer getData() {
+    public static ByteBuffer getData(String in) {
         ByteBuffer data;
         List<String> dataBytes = new ArrayList<String>();
 
         dataBytes.clear();
-        EditText txtData = (EditText) sActivity.findViewById(R.id.txtData);
-        Spinner spinnerOperation = (Spinner) sActivity.findViewById(R.id.spinnerOperation);
+        //EditText txtData = (EditText) sActivity.findViewById(R.id.txtData);
+        //Spinner spinnerOperation = (Spinner) sActivity.findViewById(R.id.spinnerOperation);
 
-        String temp = txtData.getText().toString();
+        String temp =in;
         String[] tempStringArray;
         // remove any line breaks
         temp = temp.replace("\n", "");
@@ -104,7 +104,8 @@ public final class Cmd {
 
         // if smbus is selected the first value in the data array is the
         // register index
-        if (spinnerOperation.getSelectedItem().toString().contains("SMBus")) {
+        //if (spinnerOperation.getSelectedItem().toString().contains("SMBus")) {
+        if(false){
             data = ByteBuffer.allocate(dataBytes.size() + 1);
 
             // place the register index in the first position of the array
@@ -132,20 +133,20 @@ public final class Cmd {
      * @return (int) - the speed value
      */
     public static int getSpeed() {
-        int speed;
-        Spinner spinnerSpeed = (Spinner) sActivity.findViewById(R.id.SpinnerSpeed);
+        int speed = 100000;
+        //Spinner spinnerSpeed = (Spinner) sActivity.findViewById(R.id.SpinnerSpeed);
 
-        switch (spinnerSpeed.getSelectedItemPosition()) {
-            case 0:
-                speed = 100000;
-                break;
-            case 1:
-                speed = 400000;
-                break;
-            default:
-                speed = 100000;
-                break;
-        }
+//        switch (spinnerSpeed.getSelectedItemPosition()) {
+//            case 0:
+//                speed = 100000;
+//                break;
+//            case 1:
+//                speed = 400000;
+//                break;
+//            default:
+//                speed = 100000;
+//                break;
+//        }
 
         return speed;
     }

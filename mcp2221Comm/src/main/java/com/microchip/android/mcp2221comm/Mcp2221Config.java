@@ -75,7 +75,7 @@ public final class Mcp2221Config {
     private int currentRequested;
 
     /**
-     * This value will be used by the MCP2221’s USB Configuration Descriptor (power attributes
+     * This value will be used by the MCP2221s USB Configuration Descriptor (power attributes
      * value) during the USB enumeration.
      */
     private byte powerAttribute;
@@ -259,7 +259,7 @@ public final class Mcp2221Config {
     }
 
     /**
-     * Get the power attribute value that will be used by the MCP2221’s USB Configuration Descriptor
+     * Get the power attribute value that will be used by the MCP2221s USB Configuration Descriptor
      * during the USB enumeration.
      * 
      * @return the powerAttribute

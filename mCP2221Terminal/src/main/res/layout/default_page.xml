@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/temp_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_alignTop="@+id/result1_tv"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical"
+        android:text="Temp: "
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/result1_tv"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/desc_inp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@+id/temp_tv"
+        android:gravity="center"
+        android:lines="4"
+        android:layout_marginTop="20dp"
+        android:text="sensor 1"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/temp_tv"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/rh_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_alignTop="@+id/result2_tv"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical"
+        android:text="RH: "
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/temp_tv"
+        tools:layout_editor_absoluteX="16dp" />
+
+
+    <TextView
+        android:id="@+id/result2_tv"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/result1_tv"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@+id/temp_tv"
+        android:gravity="center"
+        android:lines="4"
+        android:text="sensor 2"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.765"
+        app:layout_constraintStart_toEndOf="@+id/rh_tv"
+        app:layout_constraintTop_toBottomOf="@+id/result1_tv" />
+
+    <Button
+        android:id="@+id/hold"
+        android:layout_width="150dp"
+        android:layout_height="62dp"
+        android:layout_below="@+id/result2_tv"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/round_button"
+        android:onClick="buttonStopClick"
+        android:text="Hold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/result2_tv" />
+
+    <TextView
+        android:id="@+id/debug_tv"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hold"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="0dp"
+        android:text="Debug"
+        android:textSize="10sp" />
+</RelativeLayout>

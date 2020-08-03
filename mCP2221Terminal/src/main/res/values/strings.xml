@@ -3,16 +3,16 @@
 
     <string name="navigation_drawer_open"> drawer open</string>
     <string name="navigation_drawer_close"> drawer close</string>
-    <string name="app_name">MCP2221 Terminal</string>
+    <string name="app_name">Baset Novin</string>
     <string name="dialog_clear_output">Clear Output Messages?</string>
     <string name="dialog_clear_data">Clear Data Field?</string>
     <string name="OK">OK</string>
     <string name="accept">Accept</string>
     <string name="cancel">Cancel</string>
     <string name="connection_status">Connection Status</string>
-    <string name="title_section1_i2c_terminal">I2C/SMBus Terminal</string>
-    <string name="title_section2_pin_config">Pin Configuration</string>
-    <string name="title_section3_pin_functions">Pin Functions</string>
+    <string name="title_section1_i2c_terminal">Terminal</string>
+    <string name="title_section2_pin_config">Display</string>
+    <string name="title_section3_pin_functions">Retrieve</string>
     <string name="title_section4_serial_terminal">Serial Terminal</string>
     <string name="title_section5_help">Help</string>
     <string name="gp0">GP0</string>
@@ -44,6 +44,18 @@
     <string-array name="speed_array">
         <item>100000 bps</item>
         <!-- <item>400000 bps</item> -->
+    </string-array>
+    <string-array name="rate_array">
+        <item>1 sc</item>
+        <item>2 sc</item>
+        <item>3 sc</item>
+        <item>4 sc</item>
+        <item>5 sc</item>
+        <item>6 sc</item>
+        <item>7 sc</item>
+        <item>8 sc</item>
+        <item>9 sc</item>
+        <item>10 sc</item>
     </string-array>
     <string-array name="gp0_functions">
         <item>SSPND</item>
@@ -125,7 +137,7 @@
         <item>Pin Configuration</item>
         <item>Pin Functions</item>
         <item>Serial Terminal</item>
-		<item>Known Issues</item>
+        <item>Known Issues</item>
     </string-array>
 
     <string name="address">Address</string>
@@ -269,8 +281,8 @@ affect the runtime configuration and will be discarded after the MCP2221 is rese
 	<b>5) <u>Save Settings</u></b> \n
 	Pressing this button will save any changes made to the COM settings. If the window is dismissed without pressing "Save" then any changes made to the settings will be lost.
 	</string>
-	
-	 <string name="help_known_issues">\n
+
+    <string name="help_known_issues">\n
 	 - On some devices the MCP2221 may not be correctly detected by the app if it is 
 	  plugged out while the application is running. The OS will show a \"USB connector connected\" but the 
 	  app will not connect to the MCP2221. A potential solution is to start the app with the MCP2221 
@@ -278,7 +290,7 @@ affect the runtime configuration and will be discarded after the MCP2221 is rese
 	  -	If data is received when the COM port is closed, part of it may be displayed after the COM port is opened.\n\n
 -	When receiving more than 30 bytes of data on the COM port, the input values may be corrupted.\n\n
 	  </string>
-	
+
     <string name="eula_text"><b>BY DOWNLOADING THIS APPLICATION FROM MICROCHIP YOU ACKNOWLEDGE 
         AND ACCEPT THE FOLLOWING TERMS AND CONDITIONS (THE \"LICENSE\") TO THE ACCOMPANYING 
         APPLICATION AND CONTENT.BY DOWNLOADING AND USING THE APPLICATION, YOU AGREE TO BE BOUND 
@@ -487,7 +499,13 @@ affect the runtime configuration and will be discarded after the MCP2221 is rese
          
          If Licensee has any questions about this License, please write to Microchip Technology Inc., 
          2355 W. Chandler Blvd., Chandler, AZ 85224-6199 USA. ATTN: Marketing.</string>
+    <string name="help_txt">این برنامه برای مانیتور کردن کوتاه  مدت تهیه شده است .
+       اگر دستگاه به سنسور متصل شده باشد دایره سمت راست در بالا سبز خواهد بود
+    ؛ در صورتی که دایره قرمز باشد سنسور به تلفن همراه شما متصل نیست که یکی از دلایل آن پشتیبانی نکردن تلفن همراه شما از او.تی.جی است.
+    هنگامی که از وصل بودن تلفن همراه خود اطمینان حاصل کردید کافی است در بخش ترمینال دکمه شروع را بزنید تا نمونه گیری انجام شود.
+    سرعت نمونه گیری را نیز میتوان بین 1 تا 10 قرار داد.
+    با فشردن دکمه ایست، نمونه گیری متوقف خواهد شد.
+    در هر بار نمونه گیری عدد حاصل به شما نمایش داده خواهد شد.
+    حتما در قسمت توضیحات باید نامی را قرار دهید تا تست شما با آن نام ذخیره شده و قابل بازیابی باشد؛ توصیه میشود برای جلوگیری از خطا در ذخیره و بازیابی اطلاعات از نام انگلیسی استفاده نمایید.</string>
 
-
-		 
 </resources>

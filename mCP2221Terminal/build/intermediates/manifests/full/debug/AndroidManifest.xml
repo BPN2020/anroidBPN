@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.microchip.android.mcp2221terminal"
+    package="zyj.android.mcp2221terminal"
     android:versionCode="3"
     android:versionName="2.0" >
 
@@ -18,12 +18,13 @@
         android:label="@string/app_name"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-
+        <activity android:name="com.microchip.android.mcp2221terminal.ResulShowActivity" />
         <!-- android:theme="@style/AppTheme" -->
         <activity
             android:name="com.microchip.android.mcp2221terminal.MainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
+            android:screenOrientation="portrait"
             android:theme="@style/CustomActionBarTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,9 +32,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- android:theme="@style/TransparentTheme"/ -->
-
     </application>
 
 </manifest>

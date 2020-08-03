@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 19
+    compileSdkVersion 21
     buildToolsVersion "27.0.3"
 
     defaultConfig {
-        applicationId "com.microchip.android.mcp2221terminal"
+        applicationId "zyj.android.mcp2221terminal"
         minSdkVersion 18
         targetSdkVersion 21
         compileOptions {
@@ -25,5 +25,7 @@ android {
 dependencies {
     implementation project(':microchipUsb')
     implementation project(':mcp2221Comm')
-    implementation 'com.android.support:support-v4:19.1.0'
+    implementation 'com.android.support:support-v4:21.0.3'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+
 }

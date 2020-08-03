@@ -8,7 +8,7 @@ package com.microchip.android.microchipusb;
 
 public final class R {
     public static final class style {
-        public static final int AppBaseTheme = 0x7f080000;
-        public static final int AppTheme = 0x7f080001;
+        public static final int AppBaseTheme = 0x7f090000;
+        public static final int AppTheme = 0x7f090001;
     }
 }
